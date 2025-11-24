@@ -8,7 +8,6 @@ export const SponsorList = () => {
 		// 	name: "n8n",
 		// 	description: "Does your interface have a backend yet? Try n8n",
 		// },
-
 		// {
 		// 	imgSrc: "/sponsors/logos/warp.png",
 		// 	url: "https://warp.dev/open-webui",
