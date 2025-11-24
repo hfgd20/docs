@@ -4,19 +4,19 @@ import type * as Preset from "@docusaurus/preset-classic";
 import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
-	title: "Open WebUI",
-	tagline: "On a mission to build the best AI interface",
+	title: "hfgd2.0",
+	tagline: "building the future of hybrid education 🎓🚀",
 	favicon: "images/favicon.png",
 
 	// Set the production url of your site here
-	url: "https://openwebui.com",
+	url: "https://v2.hfg.design",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: "/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "open-webui", // Usually your GitHub org/user name.
+	organizationName: "hfgd2.0", // Usually your GitHub org/user name.
 	projectName: "docs", // Usually your repo name.
 
 	onBrokenLinks: "throw",
@@ -40,10 +40,12 @@ const config: Config = {
 		[
 			"classic",
 			{
+				/*
 				gtag: {
 					trackingID: "G-522JSJVWTB",
 					anonymizeIP: false,
 				},
+				*/
 				docs: {
 					sidebarPath: "./sidebars.ts",
 					routeBasePath: "/",
@@ -71,7 +73,7 @@ const config: Config = {
 		// Replace with your project's social card
 		// image: "images/docusaurus-social-card.jpg",
 		navbar: {
-			title: "Open WebUI",
+			title: "hfgd2.0",
 			logo: {
 				src: "images/logo.png",
 				srcDark: "images/logo-dark.png",
@@ -84,14 +86,14 @@ const config: Config = {
 				},
 				{
 					label: "GitHub",
-					href: "https://github.com/open-webui/open-webui",
+					href: "https://github.com/hfgd20/ui",
 					position: "right",
 					className: "header-github-link",
 					"aria-label": "GitHub repository",
 				},
 				{
 					label: "Discord",
-					href: "https://discord.com/invite/5rJgQTnV4s",
+					href: "https://discord.com/invite/vyBRpuph7F",
 					position: "right",
 					className: "header-discord-link",
 					"aria-label": "Discord server",
@@ -118,7 +120,7 @@ const config: Config = {
 						},
 						{
 							label: "Help Improve The Docs",
-							to: "https://github.com/open-webui/docs",
+							to: "https://github.com/hfgd20/docs2",
 						},
 					],
 				},
@@ -127,19 +129,15 @@ const config: Config = {
 					items: [
 						{
 							label: "GitHub",
-							href: "https://github.com/open-webui/open-webui",
+							href: "https://github.com/hfgd20/ui",
 						},
 						{
 							label: "Discord",
-							href: "https://discord.gg/5rJgQTnV4s",
-						},
-						{
-							label: "Reddit",
-							href: "https://www.reddit.com/r/OpenWebUI/",
+							href: "https://discord.com/invite/vyBRpuph7F",
 						},
 						{
 							label: "𝕏",
-							href: "https://x.com/OpenWebUI",
+							href: "https://x.com/hfgd20",
 						},
 					],
 				},
@@ -148,15 +146,15 @@ const config: Config = {
 					items: [
 						{
 							label: "Release Notes",
-							to: "https://github.com/open-webui/open-webui/blob/main/CHANGELOG.md",
+							to: "https://github.com/hfgd20/ui/blob/main/CHANGELOG.md",
 						},
 						{
 							label: "About",
-							to: "https://openwebui.com",
+							to: "https://v2.hfg.design",
 						},
 						{
 							label: "Report a Vulnerability / Responsible Disclosure",
-							to: "https://github.com/open-webui/open-webui/security",
+							to: "https://github.com/hfgd20/ui/security",
 						},
 					],
 				},
