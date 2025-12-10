@@ -89,13 +89,13 @@ This documentation site is built with Nuxt.js and provides detailed information 
 
 ```bash
 # Install dependencies
-yarn install
+npm install
 
 # Start development server
-yarn dev
+npm dev
 
 # Build for production
-yarn build
+npm build
 ```
 
 ## 📁 Project Structure
