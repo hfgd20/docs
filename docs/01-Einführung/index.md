@@ -8,24 +8,6 @@ hide_title: false
 
 ## hfg.design 2.0
 
-Inhalt: alles, was das Projekt erklärt, aber keine Technik, kein UI, kein Code.
-
-Was kommt rein?
-
-Was ist hfg.design 2.0
-
-Warum gibt es das Projekt
-
-Zielsetzung
-
-Förderprogramm
-
-Wie kann man beitragen (Open Source)
-
-Offizielle Links
-
-👉 Für Leser, die das Projekt verstehen wollen, nicht benutzen oder entwickeln.
-
 **hfg.design 2.0** ist die moderne, prozess- und nutzerorientierte Lehr- und Lernplattform der Hochschule für Gestaltung Schwäbisch Gmünd. Das Projekt entstand im Kontext der Corona-Pandemie, als der Bedarf an flexiblen, digitalen und kollaborativen Lehrformaten stark zunahm. Die Plattform wurde entwickelt, um digitale, hybride und Präsenzveranstaltungen in einer einheitlichen Umgebung zu verbinden und somit langfristig Lehr- und Lernprozesse zu unterstützen.
 
 Die Plattform verfolgt einen **Open-Source-Ansatz**, wodurch sie frei zugänglich, transparent und anpassbar für andere Hochschulen oder Bildungseinrichtungen bleibt. Studierende, Lehrende sowie Exerne können aktiv zur Weiterentwicklung, Pflege und Dokumentation der Plattform beitragen.
