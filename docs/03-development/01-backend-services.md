@@ -2,7 +2,7 @@
 
 ## Überblick
 
-Die hfg.design 2.0 Plattform basiert auf einer Microservice-Architektur mit spezialisierten Backend-Services. Jeder Service erfüllt eine klar definierte Aufgabe und arbeitet über die [API](api) mit den anderen Komponenten zusammen.
+Die hfg.design 2.0 Plattform basiert auf einer Microservice-Architektur mit spezialisierten Backend-Services. Jeder Service erfüllt eine klar definierte Aufgabe und arbeitet über die [API](API) mit den anderen Komponenten zusammen.
 
 ### Service-Übersicht
 
@@ -34,25 +34,25 @@ Keycloak ist unser zentrales Identity und Access Management System für die gesa
 Keycloak bildet das Sicherheitsfundament für alle Systemkomponenten:
 
 - **Zentrale Benutzerverwaltung**: Alle Nutzer des Systems werden über Keycloak verwaltet
-- **UI-Authentifizierung**: Die [UI](design-system-ui) nutzt PKCE-Authentifizierung über Keycloak für Endbenutzer
-- **API-Integration**: Die [API](api) authentifiziert sowohl Benutzer als auch Backend-Services über Keycloak
-- **Service-Authentifizierung**: [AI-Agents](architektur) und andere Backend-Services nutzen Client-Authentifizierung
-- **Stream-Autorisierung**: [LiveKit](#livekit)-Streams werden über die [API](api) mit Keycloak-Token autorisiert
+- **UI-Authentifizierung**: Die [UI](ui) nutzt PKCE-Authentifizierung über Keycloak für Endbenutzer
+- **API-Integration**: Die [API](API) authentifiziert sowohl Benutzer als auch Backend-Services über Keycloak
+- **Service-Authentifizierung**: [AI-Agents](AI-Agents) und andere Backend-Services nutzen Client-Authentifizierung
+- **Stream-Autorisierung**: [LiveKit](#livekit)-Streams werden über die [API](API) mit Keycloak-Token autorisiert
 - **User-Discovery**: Ermöglicht Benutzerfindung beim Einladen in Spaces oder Channels
 
 ### Authentifizierungsarten
 
 Unser System unterscheidet zwischen verschiedenen Authentifizierungstypen:
 
-- **PKCE-Authentifizierung**: Für Endbenutzer über die [UI](design-system-ui)
-- **Client-Authentifizierung**: Für Backend-Services wie [AI-Agents](architektur)
-- **Route-spezifische Kontrolle**: Die [API](api) unterscheidet je Route zwischen den erlaubten Authentifizierungsarten
+- **PKCE-Authentifizierung**: Für Endbenutzer über die [UI](ui)
+- **Client-Authentifizierung**: Für Backend-Services wie [AI-Agents](AI-Agents)
+- **Route-spezifische Kontrolle**: Die [API](API) unterscheidet je Route zwischen den erlaubten Authentifizierungsarten
 
 ### Integration im System
 
 1. **UI-Integration**: Seamless SSO für alle Benutzerinteraktionen
-2. **API-Schutz**: Alle [API](api)-Routen sind über Keycloak-Token geschützt
-3. **Service-Koordination**: Automatisierte Authentifizierung für [AI-Agents](architektur) und interne Services
+2. **API-Schutz**: Alle [API](API)-Routen sind über Keycloak-Token geschützt
+3. **Service-Koordination**: Automatisierte Authentifizierung für [AI-Agents](AI-Agents) und interne Services
 4. **Chat-Integration**: Benutzer-Mapping für [Matrix Synapse](#synapse) über Keycloak-Identitäten
 5. **Media-Zugriff**: Autorisierung für [MinIO](#minio)-Uploads und -Downloads
 
@@ -64,7 +64,7 @@ Keycloak stellt sicher, dass alle Systemkomponenten eine konsistente und sichere
 
 ### Einführung
 
-MongoDB ist die zentrale Datenbank für unsere [API](api) und speichert alle persistenten Daten des hfg.design 2.0 Systems. Als dokumentenorientierte NoSQL-Datenbank bietet sie die nötige Flexibilität für die vielfältigen Datenstrukturen unserer Lehr- und Lernplattform.
+MongoDB ist die zentrale Datenbank für unsere [API](API) und speichert alle persistenten Daten des hfg.design 2.0 Systems. Als dokumentenorientierte NoSQL-Datenbank bietet sie die nötige Flexibilität für die vielfältigen Datenstrukturen unserer Lehr- und Lernplattform.
 
 ### Hauptmerkmale
 
@@ -82,7 +82,7 @@ MongoDB fungiert als zentrale Datenbank für alle Anwendungsdaten:
 - **Space-Daten**: Speichert alle angelegten Spaces, Channels, Kurse und Projektgruppen
 - **Benutzerdaten**: Verwaltet Nutzerprofile, Präferenzen, ausgewählte Themes und gepinnte Spaces
 - **Stream-Metadaten**: Speichert markierte Texte auf Folien in Vorlesungsstreams und -aufzeichnungen
-- **AI-Ergebnisse**: Verwaltet Daten von [AI-Agents](architektur) wie erkannte Slides, OCR-Texte und YOLO-Objekterkennung
+- **AI-Ergebnisse**: Verwaltet Daten von [AI-Agents](AI-Agents) wie erkannte Slides, OCR-Texte und YOLO-Objekterkennung
 - **Slide-Metadaten**: Speichert Informationen zu Screenshots wie Uhrzeit, Stream-ID, Space-ID
 - **Media-Referenzen**: Verwaltet Verweise auf in [MinIO](#minio) gespeicherte Screenshots und Avatare
 
@@ -148,11 +148,11 @@ In MongoDB werden folgende Hauptdatentypen gespeichert:
 
 MongoDB arbeitet eng mit anderen Systemkomponenten zusammen:
 
-1. **[API](api)-Integration**: Direkte Anbindung für alle Datenbankoperationen
+1. **[API](API)-Integration**: Direkte Anbindung für alle Datenbankoperationen
 2. **[MinIO](#minio)-Referenzen**: Speichert Pfade und Metadaten zu Mediendateien
 3. **[Keycloak](#keycloak)-Ergänzung**: Erweitert Keycloak-Identitäten um anwendungsspezifische Daten
 4. **[LiveKit](#livekit)-Metadaten**: Verwaltet Session-Informationen und Teilnehmerdaten
-5. **[AI-Agents](architektur)-Daten**: Zentrale Speicherung aller AI-generierten Inhalte
+5. **[AI-Agents](AI-Agents)-Daten**: Zentrale Speicherung aller AI-generierten Inhalte
 
 Die flexible Dokumentenstruktur ermöglicht es, Datenmodelle schnell anzupassen und neue Features ohne Schema-Migrationen zu implementieren.
 
@@ -178,17 +178,17 @@ Matrix Synapse ist die Referenzimplementierung eines Matrix-Homeservers und dien
 Matrix Synapse fungiert als spezialisiertes Messaging-Backend für hfg.design 2.0:
 
 - **Chat-Backend**: Verwaltet alle Nachrichten und Medieninhalte aus unserer Chat-Funktion
-- **Space-Integration**: Unterstützt die Chat-Komponente in allen Space-Typen der [UI](design-system-ui)
+- **Space-Integration**: Unterstützt die Chat-Komponente in allen Space-Typen der [UI](ui)
 - **Stream-Kommentare**: Ermöglicht Live-Kommentare auf [LiveKit](#livekit)-Folien, die sowohl auf Folien als auch im Chat sichtbar sind
-- **Schlüsselverwaltung**: Standardmäßig synchronisieren wir Benutzer-Schlüssel über unsere [API](api) für bessere UX
+- **Schlüsselverwaltung**: Standardmäßig synchronisieren wir Benutzer-Schlüssel über unsere [API](API) für bessere UX
 - **Authentifizierung**: Integration mit [Keycloak](#keycloak) für einheitliche Benutzerverwaltung
 - **Media-Storage**: Speichert Chat-Medien direkt oder verweist auf [MinIO](#minio) für größere Dateien
 
 ### E2E-Verschlüsselung
 
-Unsere [UI](design-system-ui) unterstützt volle Ende-zu-Ende-Verschlüsselung. Aktuell synchronisieren wir standardmäßig die Benutzer-Schlüssel über unsere [API](api), um die Benutzererfahrung zu verbessern. Für die Zukunft ist geplant, den Nutzern die vollständige Kontrolle über ihre Schlüsselverwaltung zu überlassen, um echte E2E-Verschlüsselung ohne Kompromisse zu ermöglichen.
+Unsere [UI](ui) unterstützt volle Ende-zu-Ende-Verschlüsselung. Aktuell synchronisieren wir standardmäßig die Benutzer-Schlüssel über unsere [API](API), um die Benutzererfahrung zu verbessern. Für die Zukunft ist geplant, den Nutzern die vollständige Kontrolle über ihre Schlüsselverwaltung zu überlassen, um echte E2E-Verschlüsselung ohne Kompromisse zu ermöglichen.
 
-Alle Chat-Daten werden ausschließlich über Matrix Synapse verwaltet, während andere Systemdaten über die [API](api) und [MongoDB](#mongodb) gespeichert werden.
+Alle Chat-Daten werden ausschließlich über Matrix Synapse verwaltet, während andere Systemdaten über die [API](API) und [MongoDB](#mongodb) gespeichert werden.
 
 ---
 
@@ -211,20 +211,20 @@ LiveKit ist unsere WebRTC-Infrastruktur-Plattform für Vorlesungsstreams und Ech
 
 LiveKit dient speziell für Vorlesungsstreams und interaktive Lehrveranstaltungen:
 
-- **Vorlesungsstreams**: Dozierende übertragen ihre Folien live über unsere [UI](design-system-ui) an alle Zuschauer
+- **Vorlesungsstreams**: Dozierende übertragen ihre Folien live über unsere [UI](ui) an alle Zuschauer
 - **Interaktive Tools**: Zuschauer können direkt auf den Folien Kommentare erstellen und Text markieren
 - **Chat-Integration**: Kommentare sind über [Matrix Synapse](#synapse) sowohl auf Folien als auch im Chat sichtbar
-- **API-Markierungen**: Markierte Texte werden über die [API](api) gespeichert und sind persistent verfügbar
-- **Authentifizierung**: Streams werden über die [API](api) autorisiert und authentifiziert für kontrollierten Zugang
-- **AI-Agent Integration**: [AI-Agents](architektur) treten automatisch Räumen bei zur Stream-Analyse und -verarbeitung
+- **API-Markierungen**: Markierte Texte werden über die [API](API) gespeichert und sind persistent verfügbar
+- **Authentifizierung**: Streams werden über die [API](API) autorisiert und authentifiziert für kontrollierten Zugang
+- **AI-Agent Integration**: [AI-Agents](AI-Agents) treten automatisch Räumen bei zur Stream-Analyse und -verarbeitung
 - **WebRTC-Datenkanäle**: Koordination zwischen AI-Agents über Echtzeit-Datenübertragung
 
 ### Stream-Features
 
-- **Slide-Erkennung**: Automatische Erkennung von Folienwechseln durch [AI-Agents](architektur)
+- **Slide-Erkennung**: Automatische Erkennung von Folienwechseln durch [AI-Agents](AI-Agents)
 - **Screenshot-Aufnahme**: Automatische Speicherung von Folien-Screenshots in [MinIO](#minio)
 - **Real-time Annotation**: Live-Kommentare und Markierungen während der Übertragung
-- **Metadaten-Tracking**: Erfassung von Zeitstempel, Stream-ID und Space-Informationen über die [API](api)
+- **Metadaten-Tracking**: Erfassung von Zeitstempel, Stream-ID und Space-Informationen über die [API](API)
 
 ### Geplante Funktionen
 
@@ -238,7 +238,7 @@ Die Autorisierung erfolgt zentral über [Keycloak](#keycloak), während alle Str
 
 ### Einführung
 
-MinIO dient in unserem System als S3-kompatibles Object Storage für alle Mediendateien und statischen Assets. Es speichert primär Screenshots von Vorlesungsfolien, die von unseren [AI-Agents](architektur) automatisch erfasst werden, sowie Space- und User-Avatare.
+MinIO dient in unserem System als S3-kompatibles Object Storage für alle Mediendateien und statischen Assets. Es speichert primär Screenshots von Vorlesungsfolien, die von unseren [AI-Agents](AI-Agents) automatisch erfasst werden, sowie Space- und User-Avatare.
 
 ### Hauptmerkmale
 
@@ -252,12 +252,12 @@ MinIO dient in unserem System als S3-kompatibles Object Storage für alle Medien
 
 MinIO fungiert als zentraler Medienspeicher für hfg.design 2.0:
 
-- **Slide-Screenshots**: Speichert automatisch erfasste Screenshots von [LiveKit](#livekit)-Übertragungen durch [AI-Agents](architektur)
-- **Avatar-Speicher**: Verwaltet Space- und User-Avatare für die [UI](design-system-ui)
+- **Slide-Screenshots**: Speichert automatisch erfasste Screenshots von [LiveKit](#livekit)-Übertragungen durch [AI-Agents](AI-Agents)
+- **Avatar-Speicher**: Verwaltet Space- und User-Avatare für die [UI](ui)
 - **Zugriffskontrolle**: Objekte sind je nach Use Case zugriffslimitiert oder über Direktlinks frei zugänglich
-- **API-Integration**: Metadaten-Referenzen werden über die [API](api) in der [MongoDB](#mongodb) gespeichert
+- **API-Integration**: Metadaten-Referenzen werden über die [API](API) in der [MongoDB](#mongodb) gespeichert
 - **Slide-Metadaten**: Screenshots werden mit Zeitstempel, Stream-ID und Space-ID verknüpft
-- **AI-Datenfluss**: [AI-Agents](architektur) laden erkannte Folien-Screenshots direkt hoch
+- **AI-Datenfluss**: [AI-Agents](AI-Agents) laden erkannte Folien-Screenshots direkt hoch
 
 ### Sicherheit & Zugriff
 
@@ -268,13 +268,13 @@ MinIO fungiert als zentraler Medienspeicher für hfg.design 2.0:
 
 ### Datenfluss
 
-1. [AI-Agents](architektur) erkennen neue Folien in [LiveKit](#livekit)-Streams
+1. [AI-Agents](AI-Agents) erkennen neue Folien in [LiveKit](#livekit)-Streams
 2. Screenshots werden via `/slide/store` API-Endpunkt in MinIO hochgeladen
 3. S3-Metadaten werden in `imageMeta`-Feld der Slide-Dokumente gespeichert:
    - `bucket`, `key`, `location`, `etag`, `size`, `mimetype`
 4. Space-Icons werden via `/space/uploadIcon` hochgeladen und später via `/space/updateIcon` verknüpft
 5. User-Avatare werden via `/user/uploadAvatar` gespeichert
-6. Die [UI](design-system-ui) kann Medien über `/slide/getImage`, `/space/getIcon`, `/user/getAvatar` abrufen
+6. Die [UI](ui) kann Medien über `/slide/getImage`, `/space/getIcon`, `/user/getAvatar` abrufen
 7. Automatische Bereinigung ungenutzter Icons via `/space/cleanUnusedIcons`
 
 MinIO bildet damit das Rückgrat für alle Mediendateien in der Plattform und ermöglicht effiziente Speicherung und Abruf von Bildern und Dokumenten.

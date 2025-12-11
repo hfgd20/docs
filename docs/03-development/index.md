@@ -12,9 +12,9 @@ hfg.design 2.0 ist eine intelligente Lehr- und Lernplattform, die aus mehreren s
 
 ## System-Übersicht
 
-Das zentrale Element unserer Anwendung bildet die **[UI](design-system-ui)** - unsere Vue.js-Webanwendung von hfg.design 2.0. Sie stellt eine einheitliche Benutzeroberfläche für alle Systemfunktionen bereit und integriert seamless verschiedene Arbeitsräume (Spaces) mit unterschiedlichen Capabilities.
+Das zentrale Element unserer Anwendung bildet die **[UI](ui)** - unsere Vue.js-Webanwendung von hfg.design 2.0. Sie stellt eine einheitliche Benutzeroberfläche für alle Systemfunktionen bereit und integriert seamless verschiedene Arbeitsräume (Spaces) mit unterschiedlichen Capabilities.
 
-Die **[API](api)** fungiert als zentraler Vermittler und verwaltet alle persistenten Daten über eine RESTful-Schnittstelle. Sie koordiniert die Kommunikation zwischen allen Services und bietet Real-time-Updates über Socket.io.
+Die **[API](API)** fungiert als zentraler Vermittler und verwaltet alle persistenten Daten über eine RESTful-Schnittstelle. Sie koordiniert die Kommunikation zwischen allen Services und bietet Real-time-Updates über Socket.io.
 
 ## Core Services
 
@@ -35,7 +35,7 @@ Die **[API](api)** fungiert als zentraler Vermittler und verwaltet alle persiste
 
 ### Kommunikation & Collaboration
 
-**[Matrix Synapse](backend-services#synapse)** - Unser Chat-Backend ermöglicht:
+**[Matrix Synapse](backend-services#matrix-synapse)** - Unser Chat-Backend ermöglicht:
 
 - **End-to-End-Verschlüsselung** mit aktueller Schlüsselsynchronisation
 - **Integration mit Live-Streams** für Kommentare auf Folien
@@ -59,7 +59,7 @@ Die **[API](api)** fungiert als zentraler Vermittler und verwaltet alle persiste
 
 ### Intelligente Inhaltsanalyse
 
-**[AI-Agents](architektur)** - Spezialisierte Agents für automatisierte Stream-Analyse:
+**[AI-Agents](AI-Agents)** - Spezialisierte Agents für automatisierte Stream-Analyse:
 
 - **Agent-Coordinator**: Zentrale Steuerung aller AI-Prozesse
 - **Agent-Slidechange**: Automatische Erkennung von Folienwechseln

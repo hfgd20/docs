@@ -28,7 +28,7 @@ Die API fungiert als zentraler Vermittler und Datenverwaltungsservice:
 
 **Stream & Slide-Verwaltung:**
 
-- Slide-Erstellung durch [AI-Agents](architektur) mit `client credentials` Authentifizierung
+- Slide-Erstellung durch [AI-Agents](AI-Agents) mit `client credentials` Authentifizierung
 - Screenshot-Upload und -Speicherung in [MinIO](backend-services#minio) mit Metadaten-Referenzen
 - Live-Stream-Token-Generierung für [LiveKit](backend-services#livekit) Integration
 - Aktuelle Slide-Metadaten für laufende Streams
@@ -48,8 +48,8 @@ Die API fungiert als zentraler Vermittler und Datenverwaltungsservice:
 
 **Authentifizierung & Zugriff:**
 
-- PKCE-Token für [UI](design-system-ui)-Benutzer (Endnutzer-Interaktionen)
-- Client-Credentials für [AI-Agents](architektur) und Backend-Services
+- PKCE-Token für [UI](ui)-Benutzer (Endnutzer-Interaktionen)
+- Client-Credentials für [AI-Agents](AI-Agents) und Backend-Services
 - [Keycloak](backend-services#keycloak)-Integration für alle Authentifizierungsarten
 - Routenspezifische Authentifizierungskontrolle
 

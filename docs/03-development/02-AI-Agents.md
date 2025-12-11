@@ -10,7 +10,7 @@ Alle AI-Agents sind hauptsächlich an unseren [LiveKit](backend-services#livekit
 
 - **Selbst gehostete Modelle**: Alle AI-Modelle laufen auf unserem eigenen AI-Server mit NVIDIA Tesla-Karte
 - **Koordinierte Zusammenarbeit**: Agents kommunizieren über WebRTC-Datenkanäle miteinander
-- **API-Integration**: Ergebnisse werden über die [API](api) in [MongoDB](backend-services#mongodb) gespeichert
+- **API-Integration**: Ergebnisse werden über die [API](API) in [MongoDB](backend-services#mongodb) gespeichert
 - **Automatisierte Workflows**: Agents starten und stoppen basierend auf Stream-Aktivität
 
 ## AI-Agent-Typen
@@ -30,7 +30,7 @@ Spezialisiert auf die Erkennung von Folienwechseln:
 
 - **Bildschirmanalyse**: Empfängt Bildschirmübertragungen in [LiveKit](backend-services#livekit)-Räumen
 - **Change Detection**: Erkennt automatisch, wenn Dozierende zur nächsten Folie wechseln
-- **Slide-Erstellung**: Erstellt neue Slide-Einträge über die [API](api) in [MongoDB](backend-services#mongodb)
+- **Slide-Erstellung**: Erstellt neue Slide-Einträge über die [API](API) in [MongoDB](backend-services#mongodb)
 - **Screenshot-Upload**: Lädt automatisch Screenshots nach [MinIO](backend-services#minio) hoch
 - **Agent-Benachrichtigung**: Informiert andere Agents über WebRTC-Datenkanäle über neue Folien
 
@@ -40,7 +40,7 @@ Texterkennung auf Vorlesungsfolien:
 
 - **Screenshot-Analyse**: Wertet Screenshots neuer Folien aus
 - **Texterkennung**: Extrahiert alle sichtbaren Texte von den Folien
-- **API-Integration**: Sendet OCR-Ergebnisse an die [API](api) zur Speicherung in [MongoDB](backend-services#mongodb)
+- **API-Integration**: Sendet OCR-Ergebnisse an die [API](API) zur Speicherung in [MongoDB](backend-services#mongodb)
 - **Real-time Updates**: Übermittelt Ergebnisse über RTC-Datenkanäle an andere Agents
 
 ### Agent-YOLO
@@ -49,7 +49,7 @@ Objekterkennung auf Vorlesungsfolien:
 
 - **Objekterkennung**: Analysiert Screenshots und identifiziert Objekte auf Folien
 - **YOLO-Algorithmus**: Nutzt You Only Look Once für schnelle Objekterkennung
-- **Metadaten-Speicherung**: Speichert erkannte Objekte über die [API](api) in [MongoDB](backend-services#mongodb)
+- **Metadaten-Speicherung**: Speichert erkannte Objekte über die [API](API) in [MongoDB](backend-services#mongodb)
 - **Koordination**: Teilt Ergebnisse über RTC-Datenkanäle mit anderen Agents
 
 ### Agent-Summarize
@@ -82,14 +82,14 @@ Speech-to-Text für Audio-Untertitel:
 5. **Agent-YOLO** analysiert parallel und speichert via `/yoloMeta/store`
 6. **Agent-STT** verarbeitet Audio-Stream für Untertitel
 7. **Agent-Summarize** erstellt Zusammenfassungen der erkannten Inhalte
-8. Alle Ergebnisse werden in [MongoDB](backend-services#mongodb) gespeichert und via Socket.io an [UI](design-system-ui) übertragen
+8. Alle Ergebnisse werden in [MongoDB](backend-services#mongodb) gespeichert und via Socket.io an [UI](ui) übertragen
 
 ### System-Integration
 
 - **Authentifizierung**: Alle Agents nutzen Client-Authentifizierung über [Keycloak](backend-services#keycloak)
 - **Datenspeicherung**: Zentrale Speicherung aller AI-Ergebnisse in [MongoDB](backend-services#mongodb)
 - **Media-Storage**: Screenshots und verarbeitete Medien in [MinIO](backend-services#minio)
-- **Real-time Sync**: Live-Updates über Socket.io an die [UI](design-system-ui)
+- **Real-time Sync**: Live-Updates über Socket.io an die [UI](ui)
 
 ## Hardware & Hosting
 
