@@ -1,15 +1,18 @@
 ---
-title: 2.1 Navigation Menu
+sidebar_position: 0
+title: 02 Features
 hide_title: false
 ---
 
-## 2.1 Navigation Menu
+# Features
+
+## Überblick
 
 Die Plattform **hfg.design 2.0** basiert auf Spaces als zentralen Arbeitsbereichen. Jeder Space stellt einen eigenständigen Kontext für Kommunikation, Zusammenarbeit und Projektorganisation dar. Innerhalb der Spaces sind Funktionen wie Chat, Streams, Dateien, Zeitplanung und Abgaben integriert und ermöglichen es den Nutzer:innen, alle relevanten Informationen an einer Stelle zu bündeln.
 
 Die Plattform ist so gestaltet, dass sie sowohl für Studierende als auch für Lehrende nutzbar ist und jede Seite ihre eigenen Funktionen hat. Die Strukturen innerhalb der Spaces sind klar definiert, sodass neue Nutzer:innen sich schnell orientieren und produktiv arbeiten können. 
 
-## 2.2 Landing Page
+## Landing Page
 
 Die **Landing Page** dient als Einstiegspunkt in **hfg.design 2.0** und ist darauf optimiert, Nutzer:innen einen schnellen Überblick über relevante Informationen und anstehende Aktivitäten zu geben.
 
@@ -27,15 +30,15 @@ Die verfügbaren Module sind:
 
 Durch diese Bausteine entsteht eine personalisierbare Startseite, die gleichzeitig als Informationszentrale dient. Nutzer:innen erhalten hier auf einen Blick relevante Updates zu ihrem Studium, ihren Kursen und Projekte.
 
-## 2.3 Sidebar
+## Sidebar
 
 Die Sidebar dient als zentrale Navigationsleiste der Plattform. Sie enthält alle Hauptbereiche wie die globale Suche, die Spaces-Liste und das User Menu. Die Sidebar kann eingeklappt werden, wodurch nur die Hauptfunktionen als Icons sichtbar bleiben. Im ausgeklappten Zustand werden zusätzliche Informationen angezeigt, darunter Filteroptionen für Spaces sowie Detailinformationen zum eigenen Benutzerprofil. Dies erleichtert die Orientierung und den schnellen Zugriff auf häufig genutzte Funktionen.
 
-## 2.4 Suche
+## Suche
 
 Die Suche in hfg.design 2.0 ermöglicht das Auffinden von Spaces, Nachrichten, Archiv-Projekten ([HfG Archiv](http://archiv.hfg.design)), Personen, Bildern und Dateien. Die Suche global ausgelegt, deckt alle Bereiche der Plattform ab und ist auch durch einen Shortcut von überall erreichbar (control+space). Die Suchergebnisse werden übersichtlich nach Relevanz angezeigt, sodass Nutzer:innen schnell die gewünschten Inhalte finden können.
 
-## 2.5 User Menu
+## User Menu
 
 Das User Menu bündelt alle Einstellungen und Optionen, die den eigenen Account betreffen. Hier können Nutzer:innen ihr Profil einsehen, die eigenen Einstellungen anpassen, die Sidebar ein- oder ausklappen sowie sich abmelden.
 
@@ -45,7 +48,7 @@ Das User Menu bündelt alle Einstellungen und Optionen, die den eigenen Account 
 - **Abmelden:** Leitet zurück zur Startseite mit Anmeldeoptionen.
 - **Mikrofon/Lautsprecher:** Funktionen für den Voice Chat, der aktuell noch nicht implementiert ist.
 
-## 2.6 Spaces
+## Spaces
 
 Ein Space ist ein eigenständiger Arbeitsbereich innerhalb von hfg.design 2.0. Er bildet die Grundlage für Kommunikation, Zusammenarbeit und Projektorganisation. Innerhalb eines Spaces können Nutzer:innen Nachrichten austauschen, Dateien ablegen, Streams verfolgen, Aufgaben planen und Abgaben einreichen. Jeder Space kann spezifische Funktionen enthalten, je nach Art des Spaces und den Berechtigungen der Nutzer:innen.
 
@@ -59,7 +62,7 @@ Die Plattform unterscheidet verschiedene Space-Typen:
 - **Hyperlinks:** Erlauben die Verlinkung zu externen Ressourcen wie Websites oder Figma-Projekten.
 - **Folder:** Entstehen durch das Zusammenziehen von zwei Spaces per Drag-and-Drop. Sie können auf- und zugeklappt werden, um die Übersicht zu verbessern.
 
-### 2.7 Space erstellen
+### Space erstellen
 
 Grundsätzlich kann jede:r Nutzer:in Spaces erstellen. Studierende können keine Kurse erstellen, dafür jedoch Tutorien, die wie Kurse funktionieren. Lehrende können Kurse, Channels und Projektgruppen anlegen. Jeder Space kann **offen** (für alle sichtbar) oder **geschlossen** (nur auf Anfrage sichtbar) sein, wodurch der Zugang gesteuert werden kann.
 
@@ -69,21 +72,13 @@ Die Erstellung eines neuen Spaces erfolgt in drei Schritten:
 2. **Space-Funktionen auswählen:** Verfügbare Funktionen sind Nachrichten, Stream, Aufzeichnungen (nur bei aktivem Stream), Videos, Dateien, Zeitplan, Informationen und Abgabe (nur für Lehrende). Vorlagen enthalten bereits vorausgewählte Funktionen, die angepasst werden können.
 3. **Metadaten festlegen:** Name, Beschreibung, Bild und Sichtbarkeit des Spaces (offen oder geschlossen) werden festgelegt.
 
-### 2.8 Filter, Ansicht & Sortierung
-
-Spaces lassen sich nach Typ filtern: Kurse, Channels, Direktnachrichten, Gruppennachrichten, Projektgruppen, Verlinkungen und Ordner.
-
-Spaces können nach Aktivität (automatisch) oder alphabetisch sortiert werden. Spaces mit Livestreams erscheinen immer oben, gefolgt von angepinnten Spaces und danach den übrigen Spaces nach gewählter Sortierung.
-
-Über das Kontextmenü eines Spaces (Rechtsklick) können zusätzliche Aktionen durchgeführt werden, etwa Pinnen, Sortieren oder Gruppierung von Spaces.
-
-## 2.9 Chat
+## Chat
 
 Der Chat ist ein zentrales Element in hfg.design 2.0 und ermöglicht den Austausch zwischen Nutzer:innen innerhalb eines Spaces. Nachrichten werden chronologisch angezeigt, wobei die neuesten Nachrichten unten stehen. Nutzer:innen können Textnachrichten, Links und Dateien senden. Dateien können per Drag-and-Drop hochgeladen werden, inklusive Vorschau.
 
 Per Rechtsklick können Nutzer:innen mit Nachrichten im Chat interagieren. Es gibt Reaktionen (Emojis), Threads, direkte Antworten, das Kopieren von Text und Vorlesen von Nachrichten.
 
-## 3.1 Streaming & Medien
+## Streaming & Medien
 
 Streams werden innerhalb der Plattform angezeigt und unterscheiden zwischen Streamer- und Viewer-Ansicht. Typischerweise werden Präsentationsfolien übertragen, die automatisch als Kapitel in der Timeline gespeichert werden. Viewer können drei Tools nutzen: **Auswahl**, **Kommentieren** (Kommentare erscheinen im Chat) und **Markieren** (Text erkennen, markieren und kopieren). Außerdem gibt es am Ende einer Vorlesung eine **Vorlesungszusammenfassung.**
 

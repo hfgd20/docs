@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: 03 Entwicklung
+hide_title: false
+---
+
 # Architecture
 
 hfg.design 2.0 ist eine intelligente Lehr- und Lernplattform, die aus mehreren spezialisierten Core-Services besteht. Die Architektur ist darauf ausgelegt, nahtlose Kollaboration, Live-Streaming und AI-gestützte Inhaltsanalyse zu ermöglichen.

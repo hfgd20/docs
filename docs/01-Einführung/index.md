@@ -1,17 +1,36 @@
 ---
 sidebar_position: 0
+title: 01 Einführung
 slug: /
-title: 1. Einführung
 hide_title: false
 ---
+# Projektübersicht
 
-## 1.1 Projektübersicht
+## hfg.design 2.0
+
+Inhalt: alles, was das Projekt erklärt, aber keine Technik, kein UI, kein Code.
+
+Was kommt rein?
+
+Was ist hfg.design 2.0
+
+Warum gibt es das Projekt
+
+Zielsetzung
+
+Förderprogramm
+
+Wie kann man beitragen (Open Source)
+
+Offizielle Links
+
+👉 Für Leser, die das Projekt verstehen wollen, nicht benutzen oder entwickeln.
 
 **hfg.design 2.0** ist die moderne, prozess- und nutzerorientierte Lehr- und Lernplattform der Hochschule für Gestaltung Schwäbisch Gmünd. Das Projekt entstand im Kontext der Corona-Pandemie, als der Bedarf an flexiblen, digitalen und kollaborativen Lehrformaten stark zunahm. Die Plattform wurde entwickelt, um digitale, hybride und Präsenzveranstaltungen in einer einheitlichen Umgebung zu verbinden und somit langfristig Lehr- und Lernprozesse zu unterstützen.
 
 Die Plattform verfolgt einen **Open-Source-Ansatz**, wodurch sie frei zugänglich, transparent und anpassbar für andere Hochschulen oder Bildungseinrichtungen bleibt. Studierende, Lehrende sowie Exerne können aktiv zur Weiterentwicklung, Pflege und Dokumentation der Plattform beitragen.
 
-## 1.2 Ziele
+## Ziele
 
 Das zentrale Ziel von **hfg.design 2.0** ist das Schaffen einer integrierten Lehr- und Lernumgebung, die die Zusammenarbeit zwischen Studierenden und Lehrenden verbessert und den gesamten Studienprozess effizienter gestaltet.
 
@@ -21,13 +40,13 @@ Ein weiterer Fokus liegt auf der **Reduzierung des organisatorischen Aufwands**:
 
 Darüber hinaus ist hfg.design 2.0 als **Open-Source- und OER-Plattform** konzipiert. Damit können andere Hochschulen oder Bildungseinrichtungen die Software frei anpassen und in ihre eigenen Strukturen integrieren. So trägt das Projekt zur nachhaltigen Digitalisierung der Hochschullehre über die eigene Institution hinaus bei.
 
-## 1.3 Förderung
+## Förderung
 
 Das Projekt wird durch die **Stiftung Innovation in der Hochschullehre (StIL)** gefördert. Die Stiftung wurde 2020 gegründet und unterstützt Hochschulen in Deutschland bei der Entwicklung und Umsetzung innovativer Lehr- und Lernkonzepte. Das Förderprogramm „**Hochschullehre durch Digitalisierung stärken**“ stellt Mittel bereit, um digitale Lehrangebote in die Hochschullehre zu integrieren und die Qualität der Lehre nachhaltig zu verbessern.
 
 Für hfg.design 2.0 bedeutet dies finanzielle Unterstützung für die Weiterentwicklung der technischen Infrastruktur, der Benutzeroberfläche und die Integration neuer digitaler Lehr- und Lernformate.
 
-## 1.4 Mitmachen
+## Mitmachen
 
 Als Open-Source-Projekt lebt **hfg.design 2.0** von der aktiven Beteiligung der Community. 
 
@@ -41,7 +60,7 @@ Beitragen kann man in verschiedenen Formen:
 
 So wächst die Plattform kontinuierlich weiter und bleibt an den tatsächlichen Bedürfnissen von Lehre und Studium ausgerichtet
 
-## 1.5 Links
+## Links
 
 - **Projekt-Website:** [v2.hfg.design](https://v2.hfg.design/)
 - Anwendung: [ui.hfg.gd](http://ui.hfg.gd)
