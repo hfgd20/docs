@@ -8,7 +8,7 @@ Die hfg.design 2.0 Plattform basiert auf einer Microservice-Architektur mit spez
 
 - **[Keycloak](#keycloak)**: Identity und Access Management
 - **[MongoDB](#mongodb)**: Zentrale Datenbank
-- **[Matrix Synapse](#synapse)**: Chat-Backend
+- **[Matrix Synapse](#matrix-synapse)**: Chat-Backend
 - **[LiveKit](#livekit)**: WebRTC-Streaming-Infrastruktur
 - **[MinIO](#minio)**: Object Storage für Medien
 
@@ -53,7 +53,7 @@ Unser System unterscheidet zwischen verschiedenen Authentifizierungstypen:
 1. **UI-Integration**: Seamless SSO für alle Benutzerinteraktionen
 2. **API-Schutz**: Alle [API](API)-Routen sind über Keycloak-Token geschützt
 3. **Service-Koordination**: Automatisierte Authentifizierung für [AI-Agents](AI-Agents) und interne Services
-4. **Chat-Integration**: Benutzer-Mapping für [Matrix Synapse](#synapse) über Keycloak-Identitäten
+4. **Chat-Integration**: Benutzer-Mapping für [Matrix Synapse](#matrix-synapse) über Keycloak-Identitäten
 5. **Media-Zugriff**: Autorisierung für [MinIO](#minio)-Uploads und -Downloads
 
 Keycloak stellt sicher, dass alle Systemkomponenten eine konsistente und sichere Authentifizierung verwenden, während gleichzeitig die Flexibilität für verschiedene Service-Arten erhalten bleibt.
@@ -213,7 +213,7 @@ LiveKit dient speziell für Vorlesungsstreams und interaktive Lehrveranstaltunge
 
 - **Vorlesungsstreams**: Dozierende übertragen ihre Folien live über unsere [UI](ui) an alle Zuschauer
 - **Interaktive Tools**: Zuschauer können direkt auf den Folien Kommentare erstellen und Text markieren
-- **Chat-Integration**: Kommentare sind über [Matrix Synapse](#synapse) sowohl auf Folien als auch im Chat sichtbar
+- **Chat-Integration**: Kommentare sind über [Matrix Synapse](#matrix-synapse) sowohl auf Folien als auch im Chat sichtbar
 - **API-Markierungen**: Markierte Texte werden über die [API](API) gespeichert und sind persistent verfügbar
 - **Authentifizierung**: Streams werden über die [API](API) autorisiert und authentifiziert für kontrollierten Zugang
 - **AI-Agent Integration**: [AI-Agents](AI-Agents) treten automatisch Räumen bei zur Stream-Analyse und -verarbeitung
