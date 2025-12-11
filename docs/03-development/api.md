@@ -22,15 +22,15 @@ Die API fungiert als zentraler Vermittler und Datenverwaltungsservice:
 - Erstellen, Aktualisieren und Verwalten von Spaces mit verschiedenen Typen:
   - COURSE, CHANNEL, DM_DIRECT, DM_GROUP, PROJECT_GROUP, HYPERLINK, FOLDER
 - Capability-basierte Konfiguration: CHAT, STREAM, VOD, VIDEO, FILES, SCHEDULE, INFORMATION, SUBMISSION
-- Space-Icons und Metadaten-Verwaltung über [MinIO](minio)
+- Space-Icons und Metadaten-Verwaltung über [MinIO](backend-services#minio)
 - Benutzereinladungen und Ownership-Verwaltung
 - Live-Streaming-Konfiguration und Berechtigungskontrolle
 
 **Stream & Slide-Verwaltung:**
 
-- Slide-Erstellung durch [AI-Agents](ai) mit `client credentials` Authentifizierung
-- Screenshot-Upload und -Speicherung in [MinIO](minio) mit Metadaten-Referenzen
-- Live-Stream-Token-Generierung für [LiveKit](livekit) Integration
+- Slide-Erstellung durch [AI-Agents](architektur) mit `client credentials` Authentifizierung
+- Screenshot-Upload und -Speicherung in [MinIO](backend-services#minio) mit Metadaten-Referenzen
+- Live-Stream-Token-Generierung für [LiveKit](backend-services#livekit) Integration
 - Aktuelle Slide-Metadaten für laufende Streams
 
 **AI-Datenintegration:**
@@ -48,9 +48,9 @@ Die API fungiert als zentraler Vermittler und Datenverwaltungsservice:
 
 **Authentifizierung & Zugriff:**
 
-- PKCE-Token für [UI](ui)-Benutzer (Endnutzer-Interaktionen)
-- Client-Credentials für [AI-Agents](ai) und Backend-Services
-- [Keycloak](keycloak)-Integration für alle Authentifizierungsarten
+- PKCE-Token für [UI](design-system-ui)-Benutzer (Endnutzer-Interaktionen)
+- Client-Credentials für [AI-Agents](architektur) und Backend-Services
+- [Keycloak](backend-services#keycloak)-Integration für alle Authentifizierungsarten
 - Routenspezifische Authentifizierungskontrolle
 
-Alle Daten werden entweder direkt in der [MongoDB](mongodb) oder als Medien-Referenzen in [MinIO](minio) gespeichert, während die API als zentrale Koordinationsstelle für das gesamte System fungiert.
+Alle Daten werden entweder direkt in der [MongoDB](backend-services#mongodb) oder als Medien-Referenzen in [MinIO](backend-services#minio) gespeichert, während die API als zentrale Koordinationsstelle für das gesamte System fungiert.

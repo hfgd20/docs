@@ -19,10 +19,10 @@ Die UI fungiert als zentrale Steuerungseinheit des gesamten Systems:
 
 - **Benutzeroberfläche**: Stellt alle Funktionen der Plattform in einer einheitlichen Oberfläche bereit
 - **Space-Management**: Verwaltet Kurse, Channels, Direktnachrichten und Projektgruppen
-- **Stream-Integration**: Eingebettete [LiveKit](livekit)-Streams für Vorlesungsübertragungen mit interaktiven Tools
-- **Chat-Integration**: Nahtlose Einbindung des [Matrix Synapse](synapse)-Messaging-Systems
-- **Datei-Verwaltung**: Direkter Zugriff auf [MinIO](minio)-Objektspeicher für Medien und Dokumente
+- **Stream-Integration**: Eingebettete [LiveKit](backend-services#livekit)-Streams für Vorlesungsübertragungen mit interaktiven Tools
+- **Chat-Integration**: Nahtlose Einbindung des [Matrix Synapse](backend-services#synapse)-Messaging-Systems
+- **Datei-Verwaltung**: Direkter Zugriff auf [MinIO](backend-services#minio)-Objektspeicher für Medien und Dokumente
 - **Echtzeit-Synchronisation**: Live-Updates über [API](api) und Socket.io für alle Systemänderungen
-- **Authentifizierung**: Single Sign-on über [Keycloak](keycloak) Integration
+- **Authentifizierung**: Single Sign-on über [Keycloak](backend-services#keycloak) Integration
 
 Mehr Details zum Funktionsumfang und Systemaufbau finden sich im [Systemaufbau](/) Teil unserer Dokumentation.
