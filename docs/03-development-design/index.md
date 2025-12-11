@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-title: 03 Entwicklung
+title: 03 Entwicklung & Design
 hide_title: false
 ---
 
