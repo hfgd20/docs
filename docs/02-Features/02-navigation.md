@@ -5,7 +5,7 @@ hide_title: false
 ---
 # Navigation
 
-### 2.2 Navigation Menu
+## Navigationsmenü
 
 Das Navigationsmenü bildet den zentralen Einstiegspunkt in die Plattform **hfg.design 2.0**. Es ermöglicht den Zugriff auf globale Funktionen wie Suche, Startseite, Spaces und Nutzereinstellungen. Die Navigation ist dauerhaft sichtbar und in zwei Zuständen nutzbar: **eingeklappt** (kompakte Symbolansicht) und **ausgeklappt** (erweiterte Darstellung mit Bezeichnungen, Filterfunktionen und zusätzlichen Optionen).
 
@@ -13,7 +13,7 @@ Im **eingeklappten Zustand** werden nur die Hauptfunktionen als Icons angezeigt 
 
 Im **ausgeklappten Zustand** werden zu den Icons ergänzende Beschriftungen, Space-Namen und Filteroptionen angezeigt. Außerdem erscheint unter dem eigenen Profilbild der vollständige Name, der Online-Status sowie Icons für Mute, Deafen und Einstellungen.
 
-### 2.2.1 Search
+## Suche
 
 Die globale Suche ermöglicht es, schnell und kontextübergreifend Inhalte auf der Plattform zu finden. Sie durchsucht **Spaces, Nachrichten, Personen, Dateien, Bilder** sowie **Archiv-Projekte** aus dem HfG-Archiv (archiv.hfg.design).
 
@@ -21,23 +21,19 @@ Die Suche ist aktuell **global** – sie durchsucht also alle Inhalte unabhängi
 
 Suchvorschläge werden während der Eingabe automatisch angezeigt. Suchergebnisse sind nach Typ gruppiert, wodurch sich relevante Inhalte effizient filtern und öffnen lassen.
 
-### 2.2.2 Home
-
-Der Bereich **Home** ist derzeit in der Entwicklung.
-
-Der Bereich **Home** ist noch nicht implementiert.
+## Home
 
 Geplant ist eine **personalisierte Startansicht**, die den Nutzer*innen eine Übersicht über aktuelle Kurse, aktive Spaces, anstehende Termine und Benachrichtigungen bietet. Ziel ist es, einen zentralen Einstiegspunkt in die eigene Lehr- und Lernumgebung zu schaffen.
 
-### 2.2.3 Curriculum
+## Curriculum
 
 Der Bereich **Curriculum** ist noch nicht implementiert.
 
-### 2.2.4 Knowledge Base
+## Knowledge Base
 
 Der Bereich **Knowledge Base** ist noch nicht implementiert.
 
-### 2.2.5 Spaces
+## Spaces
 
 Spaces sind das **Kernkonzept** der Plattform und dienen als strukturierte Kommunikations- und Arbeitsräume. Ein Space lässt sich funktional mit einem Channel oder Arbeitsraum vergleichen und repräsentiert eine bestimmte inhaltliche oder organisatorische Einheit – z. B. einen Kurs, ein Projekt oder eine Gruppenkommunikation.
 
@@ -53,7 +49,7 @@ Es gibt verschiedene **Space-Typen** mit jeweils spezifischen Eigenschaften:
 
 Grundsätzlich können **alle Nutzer*innen Spaces erstellen**, mit Ausnahme von Kursen. Studierende dürfen keine Kurse anlegen, können aber **Tutorien** erstellen, die funktional einem Kurs ähneln.
 
-### 2.2.5.1 Add Space
+### Space hinzufügen
 
 Über den Button **„Neuen Space erstellen“** öffnet sich ein mehrstufiger Dialog, der den Erstellungsprozess strukturiert:
 
@@ -70,25 +66,25 @@ Grundsätzlich können **alle Nutzer*innen Spaces erstellen**, mit Ausnahme von 
     Im letzten Schritt können Name, Beschreibung und Vorschaubild gewählt werden. Zudem kann festgelegt werden, ob der Space **offen** (öffentlich für alle sichtbar) oder **geschlossen** (nur auf Anfrage zugänglich) ist.
     
 
-### 2.2.5.2 Filter Spaces
+### Spaces filtern
 
 Die Space-Liste kann nach **Typen** gefiltert werden, um die Übersicht zu erleichtern.
 
 Verfügbare Filterkategorien sind: *Kurse, Kanäle, Direktnachrichten, Gruppennachrichten, Projekte, Verlinkungen* und *Ordner*.
 
-### 2.2.5.3 Ansicht ändern
+Ansicht ändern
 
 Der Bereich **Ansicht ändern** ist noch nicht implementiert.
 
-### 2.2.5.4 Weitere Space-Funktionen
+### Weitere Space-Funktionen
 
 Beim Rechtsklick auf einen Space öffnet sich ein Kontextmenü mit zusätzlichen Aktionen.
 
-### 2.2.5.4.1 Space anpinnen/lösen
+Space anpinnen/lösen
 
 Spaces können „angepinnt“ werden, um sie dauerhaft am oberen Rand der Space-Liste anzuzeigen. So bleiben wichtige Kurse oder Projekte stets sichtbar, unabhängig von der Sortierung.
 
-### 2.2.5.4.2 Spaces sortieren
+### Spaces sortieren
 
 Die Sortierung kann **automatisch** oder **alphabetisch** erfolgen.
 
@@ -96,19 +92,19 @@ Bei der automatischen Sortierung werden Spaces nach **jüngster Aktivität** ang
 
 Spaces mit aktivem Livestream erscheinen immer ganz oben, gefolgt von angepinnten Spaces und anschließend allen übrigen – je nach gewähltem Sortiermodus.
 
-### 2.2.5.4.3 Gruppen erstellen
+### Gruppen erstellen
 
 Der Bereich **Gruppen erstellen** ist noch nicht implementiert.
 
-### 2.2.6 User Menu
+### User Menü
 
 Das **User-Menü** fasst alle persönlichen Optionen und Einstellungen zusammen, die den eigenen Account betreffen. Es befindet sich im unteren Bereich der Navigationsleiste und ermöglicht den Zugriff auf Profil, Kontoeinstellungen und Systemoptionen.
 
-### 2.2.6.1 Profil
+### Profil
 
 Der Bereich **Profil** zeigt die eigene Profilseite in der Ansicht, wie sie für andere Nutzer*innen sichtbar ist.
 
-### 2.2.6.2 Einstellungen
+### Einstellungen
 
 In den **Einstellungen** können Nutzer*innen ihr Profil anpassen und persönliche Informationen pflegen.
 
@@ -126,14 +122,14 @@ Zu den wichtigsten Optionen gehören:
 - **Über mich:** strukturierte Angaben zu Sprachen, Praxissemester, Portfolio-URL, Bildungsweg, Wohnort, Auslandssemester, Engagement, Funfact und optional ein Freitext
 - **Interessen:** (noch nicht implementiert)
 
-### 2.2.6.3 Menü einklappen
+### Menü einklappen
 
 Die Sidebar kann minimiert werden, um mehr Platz für den Arbeitsbereich zu schaffen. In der eingeklappten Ansicht werden nur Icons angezeigt, während die ausgeklappte Ansicht zusätzliche Informationen und Filter einblendet.
 
-### 2.2.6.4 Abmelden
+### Abmelden
 
 Über **Abmelden** wird die aktuelle Sitzung beendet, und der Nutzer kehrt zur Startseite mit dem Login-Button zurück.
 
-### 2.2.6.5 Mikrofon/Lautsprecher ausschalten + Einstellungen
+### Mikrofon/Lautsprecher ausschalten + Einstellungen
 
 Der Bereich **Voice-Chat** ist aktuell noch nicht implementiert. Eine Geräteauswahl für Mikrofon oder Lautsprecher besteht derzeit nicht.
