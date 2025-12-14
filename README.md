@@ -117,7 +117,7 @@ hfgd-docs/
 
 ## 🌐 Live Documentation
 
-Visit the live documentation at: [Your Documentation URL]
+Visit the live documentation at: https://hfgd20.github.io/docs/
 
 ## 📧 Contact & Support
 
