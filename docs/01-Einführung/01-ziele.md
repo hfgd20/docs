@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: Ziele
+hide_title: false
+---
+
 ## Ziele
 
 Das zentrale Ziel von **hfg.design 2.0** ist das Schaffen einer integrierten Lehr- und Lernumgebung, die die Zusammenarbeit zwischen Studierenden und Lehrenden verbessert und den gesamten Studienprozess effizienter gestaltet.

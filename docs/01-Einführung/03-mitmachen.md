@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: Mitmachen
+hide_title: false
+---
+
 ## Mitmachen
 
 Als Open-Source-Projekt lebt **hfg.design 2.0** von der aktiven Beteiligung der Community.
