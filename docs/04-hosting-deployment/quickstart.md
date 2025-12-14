@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: Quick Start
+hide_title: false
+---
+
 # setup hfgd2.0 quickly
 
 1. create a new stack with the compose

@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: AI-Agents
+hide_title: false
+---
+
 # AI-Agents
 
 ## Einführung

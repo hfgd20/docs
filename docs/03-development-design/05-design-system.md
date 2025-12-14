@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: Design System
+hide_title: false
+---
+
 # Figma Design System
 
 Das UI Design System bietet einen zentralen Überblick über die visuelle und funktionale Gestaltung von hfg.design 2.0. Es bündelt alle relevanten Elemente – von grundlegenden Designprinzipien über bestehende Screens bis hin zu Komponenten, die bereits im Code implementiert wurden.

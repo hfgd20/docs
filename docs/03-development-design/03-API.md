@@ -1,3 +1,9 @@
+---
+sidebar_position: 0
+title: API
+hide_title: false
+---
+
 # API
 
 ## Einführung

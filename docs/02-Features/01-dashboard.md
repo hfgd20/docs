@@ -5,18 +5,31 @@ hide_title: false
 ---
 # Dashboard
 
-Die **Landing Page** dient als Einstiegspunkt in **hfg.design 2.0** und ist darauf optimiert, Nutzer:innen einen schnellen Überblick über relevante Informationen und anstehende Aktivitäten zu geben.
+Das **Dashboard** dient als Einstiegspunkt in **hfg.design 2.0** und ist darauf optimiert, Nutzer:innen einen schnellen Überblick über relevante Informationen und anstehende Aktivitäten zu geben.
 
-Sie ist modular aufgebaut, was bedeutet, dass sich die Seite aus individuell kombinierbaren **Bausteinen** zusammensetzt. Nutzer:innen können dadurch ihre Startseite an die eigenen Bedürfnisse anpassen und festlegen, welche Inhalte sie beim Einstieg zuerst sehen möchten.
+Es ist modular aufgebaut, was bedeutet, dass sich die Seite aus individuell kombinierbaren **Bausteinen** zusammensetzt. Nutzer:innen können dadurch ihre Startseite an die eigenen Bedürfnisse anpassen und festlegen, welche Inhalte sie beim öffnen zuerst sehen möchten.
 
 Die verfügbaren Module sind:
 
-- **Overview:** Bietet eine Zusammenfassung des eigenen Studienfortschritts – z. B. wie weit das aktuelle Semester fortgeschritten ist, wie viele ECTS bereits erreicht wurden und wie der Gesamtstatus im Studium aussieht.
-- **Next Lecture:** Zeigt die aktuell laufende oder unmittelbar bevorstehende Vorlesung an, inklusive Kursname, Datum, Uhrzeit, Dozent:innen, Modul, Raum, Studiengang, Format (Präsenz oder Online) sowie der aktuellen Teilnehmerzahl. Eine direkte Verlinkung zur jeweiligen Vorlesung ist vorhanden.
-- **Scheduled Classes:** Listet die kommenden Vorlesungen mit Datum, Uhrzeit, Kursnamen und Dozent:innen auf. Jede Vorlesung ist ebenfalls mit dem entsprechenden Space verknüpft.
-- **Drive:** Zeigt die zuletzt verwendeten oder bearbeiteten Dateien an und bietet so einen schnellen Zugriff auf aktuelle Arbeitsdokumente.
-- **Bookmarks:** Ermöglicht den Zugriff auf häufig besuchte Websites, die direkt aus der Plattform heraus geöffnet werden können.
-- **Kalender:** Bietet verschiedene Ansichten (Tag, Woche, Monat, Jahr) zur Übersicht über Termine, Vorlesungen und Deadlines.
-- **Announcements:** Zeigt aktuelle Ankündigungen von Lehrenden, der Verwaltung oder Systemmeldungen an.
+**Overview**  
+Bietet eine Zusammenfassung des eigenen Studienfortschritts – z. B. wie weit das aktuelle Semester fortgeschritten ist, wie viele ECTS bereits erreicht wurden und wie der Gesamtstatus im Studium aussieht.
+
+**Next Lecture**  
+Zeigt die aktuell laufende oder unmittelbar bevorstehende Vorlesung an, inklusive Kursname, Datum, Uhrzeit, Dozent:innen, Modul, Raum, Studiengang, Format (Präsenz oder Online) sowie der aktuellen Teilnehmerzahl. Eine direkte Verlinkung zur jeweiligen Vorlesung ist vorhanden.
+
+**Scheduled Classes**  
+Listet die kommenden Vorlesungen mit Datum, Uhrzeit, Kursnamen und Dozent:innen auf. Jede Vorlesung ist ebenfalls mit dem entsprechenden Space verknüpft.
+
+**Drive**  
+Zeigt die zuletzt verwendeten oder bearbeiteten Dateien an und bietet so einen schnellen Zugriff auf aktuelle Arbeitsdokumente.
+
+**Bookmarks**  
+Ermöglicht den Zugriff auf häufig besuchte Websites, die direkt aus der Plattform heraus geöffnet werden können.
+
+**Kalender**  
+Bietet verschiedene Ansichten (Tag, Woche, Monat, Jahr) zur Übersicht über Termine, Vorlesungen und Deadlines.
+
+**Announcements**  
+Zeigt aktuelle Ankündigungen von Lehrenden, der Verwaltung oder Systemmeldungen an.
 
 Durch diese Bausteine entsteht eine personalisierbare Startseite, die gleichzeitig als Informationszentrale dient. Nutzer:innen erhalten auf einen Blick relevante Updates zu ihrem Studium, ihren Kursen und Projekten, ohne durch verschiedene Spaces navigieren zu müssen.

@@ -1,6 +1,11 @@
-# Projektübersicht
+---
+sidebar_position: 0
+title: 01 Einführung
+hide_title: false
+slug: /
+---
 
-## hfg.design 2.0
+# Einführung
 
 **hfg.design 2.0** ist die moderne, prozess- und nutzerorientierte Lehr- und Lernplattform der Hochschule für Gestaltung Schwäbisch Gmünd. Das Projekt entstand im Kontext der Corona-Pandemie, als der Bedarf an flexiblen, digitalen und kollaborativen Lehrformaten stark zunahm. Die Plattform wurde entwickelt, um digitale, hybride und Präsenzveranstaltungen in einer einheitlichen Umgebung zu verbinden und somit langfristig Lehr- und Lernprozesse zu unterstützen.
 
