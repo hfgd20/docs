@@ -3,15 +3,15 @@ sidebar_position: 0
 title: Spaces
 hide_title: false
 ---
-Spaces sind das **Kernkonzept** der Plattform und dienen als strukturierte Kommunikations- und Arbeitsräume. Ein Space lässt sich funktional mit einem Channel oder Arbeitsraum vergleichen und repräsentiert eine bestimmte inhaltliche oder organisatorische Einheit zum Beispiel einen Kurs, ein Projekt oder eine Gruppenkommunikation.
+Spaces sind das **Kernkonzept** der Plattform und dienen als strukturierte Kommunikations- und Arbeitsräume. Ein Space lässt sich funktional mit einem Channel oder Arbeitsraum vergleichen und repräsentiert eine bestimmte inhaltliche oder organisatorische Einheit, zum Beispiel einen Kurs, ein Projekt oder eine Gruppenkommunikation.
 
 Es gibt verschiedene **Space-Typen** mit jeweils spezifischen Eigenschaften:
 
 **Kurs**
-Wird automatisch erstellt, ist an eine Lehrveranstaltung gebunden und besitzt einen oder mehrere Dozierende. Kurse verfügen über Funktionen wie *Abgabe* und *Stream*.
+Wird automatisch erstellt, ist an eine Lehrveranstaltung gebunden und besitzt ein oder mehrere Dozierende. Kurse verfügen über Funktionen wie *Abgabe* und *Stream*.
 
 **Channel**
-Ein allgemeiner, frei konfigurierbarer Kommunikationsraum. Kann automatisch oder manuell erstellt werden, z. B. für Community-Austausch.
+Ein allgemeiner, frei konfigurierbarer Kommunikationsraum. Kann automatisch oder manuell erstellt werden, z. B. für den Community-Austausch.
 
 **Direktnachricht (DM)**
 Privater Chat zwischen zwei Personen.
@@ -26,7 +26,7 @@ Entsteht durch Verknüpfung eines Channels oder einer Gruppen-DM mit einem Kurs.
 Ein externer Verweis, z. B. auf eine Website oder ein Figma-Board. Beim Anklicken wird direkt zur verlinkten Ressource weitergeleitet.
 
 **Ordner**
-Ein Ordner zur strukturellen Organisation von Spaces. Er entsteht, wenn zwei Spaces per Drag-and-Drop übereinander gezogen werden und kann anschließend aufgeklappt oder geschlossen werden.
+Ein Ordner zur strukturellen Organisation von Spaces. Er entsteht, wenn zwei Spaces per Drag-and-Drop übereinander gezogen werden, und kann anschließend aufgeklappt oder geschlossen werden.
 
 Grundsätzlich können **alle Nutzer*innen Spaces erstellen**, mit Ausnahme von Kursen. Studierende dürfen keine Kurse anlegen, können aber **Tutorien** erstellen, die funktional einem Kurs ähneln.
 
@@ -77,7 +77,7 @@ Der Chat stellt eine der Hauptfunktionen von hfg.design 2.0 dar und bildet das k
 
 ### Nachricht schreiben
 
-Über das Eingabefeld am unteren Rand des Chats können Textnachrichten verfasst und versendet werden. Neben einfachem Text können auch Dateien und Links geteilt werden. Dateien lassen sich per Drag-and-Drop direkt in das Eingabefeld ziehen, woraufhin eine Vorschau der hochgeladenen Datei angezeigt wird. Emojis, Erwähnungen anderer Nutzer:innen und erweiterte Formatierungsoptionen werden auch unterstützt.
+Über das Eingabefeld am unteren Rand des Chats können Textnachrichten verfasst und versendet werden. Neben einfachem Text können auch Dateien und Links geteilt werden. Dateien lassen sich per Drag-and-Drop direkt in das Eingabefeld ziehen, woraufhin eine Vorschau der hochgeladenen Datei angezeigt wird. Emojis, Erwähnungen anderer Nutzer:innen und erweiterte Formatierungsoptionen werden ebenfalls unterstützt.
 
 ### Mit Nachrichten interagieren
 

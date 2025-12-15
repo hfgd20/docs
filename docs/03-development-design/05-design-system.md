@@ -6,18 +6,44 @@ hide_title: false
 
 # Figma Design System
 
-Das UI Design System bietet einen zentralen Überblick über die visuelle und funktionale Gestaltung von hfg.design 2.0. Es bündelt alle relevanten Elemente – von grundlegenden Designprinzipien über bestehende Screens bis hin zu Komponenten, die bereits im Code implementiert wurden.
+Das Figma Design System von hfg.design 2.0 ist die zentrale Referenz für das visuelle Erscheinungsbild und die UI-Struktur der Plattform. Es richtet sich an alle, die am Projekt mitarbeiten – unabhängig davon, ob sie regelmäßig mit Figma arbeiten oder nicht.
 
-Der Styleguide dient als Arbeitsgrundlage für Design, Entwicklung und Dokumentation. Er hilft dabei, konsistent zu gestalten, schneller Entscheidungen zu treffen und den aktuellen Stand des Prototyps nachvollziehbar zu machen. Das System ist bewusst einfach gehalten: Es richtet sich sowohl an Personen, die selten mit Figma arbeiten, als auch an Designer:innen, die sich direkt in Komponenten, Strukturen und Status einlesen möchten.
+- Im Design System findest du:
+- den aktuellen Designstand der Plattform
+- bereits umgesetzte Screens und Komponenten
+- konzeptionelle Entwürfe und Ideen, die (noch) nicht im Code umgesetzt sind
+- grundlegende Gestaltungsprinzipien als Orientierung für Design und Entwicklung
 
-Ziel ist es, ein gemeinsames Verständnis für Aufbau, Logik und Qualität des Designs zu schaffen – ohne starre Regeln, sondern als verlässliche Orientierung für die Weiterentwicklung.
+Das Ziel ist nicht, ein starres Regelwerk vorzugeben, sondern einen gemeinsamen, nachvollziehbaren Ausgangspunkt für Weiterentwicklung, Diskussion und Qualitätssicherung zu schaffen.
 
-### Start Figma Readme Overview
+### Zugriff auf die Figma-Datei
+
+Das Design System liegt als zentrale Figma-Datei vor.
+
+Der Zugriff erfolgt über einen öffentlichen Figma-Link
+
+Die Datei kann eingesehen werden, auch ohne Figma-Education-Abo
+
+Je nach Account-Typ stehen unterschiedliche Funktionen zur Verfügung (siehe unten)
+
+👉 Download / Zugriff:
+Der direkte Link zur Figma-Datei ist im Repository bzw. in der Projekt-Dokumentation verlinkt. ???
 
 Der Styleguide soll einen sicheren Umgang mit dem bereits im Code umgesetzten Design erleichtern.Er dient als Übersicht über die bereits umgesetzten Screens sowie über geplante Features, die es nicht mehr in die Entwicklung geschafft haben.
 Der Guide kann sowohl von Nutzer:innen ohne regelmäßige Figma-Erfahrung als auch von bereits erfahrenen Designer:innen verwendet werden.Solltest du kein Figma-Education-Abo besitzen oder einen Figma-Free-Account nutzen, findest du hier eine kurze Anleitung.
 
-### Design principles
+### Orientierung für Nicht-Figma-Nutzer:innen
+
+- Du musst kein Figma-Profi sein, um mit dem Design System zu arbeiten.
+- Die Datei ist strukturiert aufgebaut
+- Screens dienen als visuelle Referenz für den aktuellen Stand
+- Komponenten sind beschriftet und mit kurzen Hinweisen versehen
+
+Status-Labels zeigen, ob etwas bereits umgesetzt, geplant oder verworfen ist
+
+Das Design System kann daher auch rein lesend und nachvollziehend genutzt werden – z. B. zur Abstimmung, Dokumentation oder Qualitätssicherung.
+
+### Designprinzipien
 
 Unsere Design-Prinzipien dienen als Orientierung für die Gestaltung aller Inhalte. Sie helfen, ein einheitliches, nutzerfreundliches und ansprechendes Erlebnis zu schaffen:
 

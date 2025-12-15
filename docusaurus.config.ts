@@ -54,14 +54,7 @@ const config: Config = {
 					editUrl: "https://github.com/hfgd20/docs/blob/main",
 					exclude: ["**/tab-**/**"],
 				},
-				// blog: false,
-				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					// editUrl:
-					// "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-				},
+				blog: false,
 				theme: {
 					customCss: "./src/css/custom.css",
 				},
@@ -79,11 +72,6 @@ const config: Config = {
 				srcDark: "images/favicon.svg",
 			},
 			items: [
-				{
-					to: "blog",
-					label: "Blog",
-					position: "left",
-				},
 				{
 					label: "GitHub",
 					href: "https://github.com/hfgd20/ui",
@@ -168,8 +156,19 @@ const config: Config = {
 			darkTheme: prismThemes.dracula,
 			additionalLanguages: ["hcl", "docker"],
 		},
+		imageZoom: {
+			// CSS selector to apply the plugin to, defaults to '.markdown img'
+			selector: '.markdown img',
+			// Optional medium-zoom options
+			// see: https://www.npmjs.com/package/medium-zoom#options
+			options: {
+				margin: 24,
+				background: 'rgba(0, 0, 0, 0.9)',
+				scrollOffset: 0,
+			},
+		},
 	} satisfies Preset.ThemeConfig,
-	plugins: [require.resolve("docusaurus-lunr-search")],
+	plugins: [require.resolve("docusaurus-lunr-search"), require.resolve('plugin-image-zoom')],
 };
 
 export default config;
