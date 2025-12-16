@@ -4,7 +4,13 @@ title: 04 Hosting-Deployment
 hide_title: false
 ---
 
-# setup hfgd2.0 quickly
+# Hosting & Deployment
+
+<span style={{backgroundColor: 'magenta'}}>Hier fehlt vielleicht noch eine bessere step by step Dokumentation Quickguide zuviel CLI ohne Kontext?</span>
+
+Dieser Bereich beschreibt, wie <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> bzw. **Peer*** gehostet und deployed werden kann.
+
+## setup hfgd2.0 quickly
 
 1. create a new stack with the compose
 2. add the `.env` sample and change the required fields
