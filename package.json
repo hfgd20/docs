@@ -18,7 +18,8 @@
 		"prettier:check": "prettier . --check",
 		"lint": "eslint",
 		"lint:fix": "eslint --fix",
-		"stylelint": "stylelint \"src/**/*.css\""
+		"stylelint": "stylelint \"src/**/*.css\"",
+		"extract-highlights": "node scripts/extract-highlights.mjs"
 	},
 	"dependencies": {
 		"@docusaurus/core": "^3.5.2",
