@@ -8,7 +8,7 @@ hide_title: false
 
 ## Einführung
 
-Die API ist unsere zentrale Schnittstelle für user-generated content und bildet das Herzstück der Backend-Infrastruktur von hfg.design 2.0. Sie verwaltet alle persistenten Daten des Systems (außer Chat-Nachrichten) und koordiniert die Kommunikation zwischen allen Services der Plattform.
+Die API ist unsere zentrale Schnittstelle für user-generated content und bildet das Herzstück der Backend-Infrastruktur von <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span>. Sie verwaltet alle persistenten Daten des Systems (außer Chat-Nachrichten) und koordiniert die Kommunikation zwischen allen Services der Plattform.
 
 ### Hauptmerkmale
 

@@ -5,7 +5,7 @@ hide_title: false
 ---
 # Dashboard
 
-Das **Dashboard** dient als Einstiegspunkt in **hfg.design 2.0** und ist darauf optimiert, Nutzer:innen einen schnellen Überblick über relevante Informationen und anstehende Aktivitäten zu geben.
+Das **Dashboard** dient als Einstiegspunkt in <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> und ist darauf optimiert, Nutzer:innen einen schnellen Überblick über relevante Informationen und anstehende Aktivitäten zu geben.
 
 Es ist modular aufgebaut, was bedeutet, dass sich die Seite aus individuell kombinierbaren **Bausteinen** zusammensetzt. Nutzer:innen können dadurch ihre Startseite an die eigenen Bedürfnisse anpassen und festlegen, welche Inhalte sie beim Öffnen zuerst sehen möchten.
 

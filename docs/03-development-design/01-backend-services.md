@@ -8,7 +8,7 @@ hide_title: false
 
 ## Überblick
 
-Die hfg.design 2.0 Plattform basiert auf einer Microservice-Architektur mit spezialisierten Backend-Services. Jeder Service erfüllt eine klar definierte Aufgabe und arbeitet über die [API](API) mit den anderen Komponenten zusammen.
+Die <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> Plattform basiert auf einer Microservice-Architektur mit spezialisierten Backend-Services. Jeder Service erfüllt eine klar definierte Aufgabe und arbeitet über die [API](API) mit den anderen Komponenten zusammen.
 
 ### Service-Übersicht
 
@@ -24,7 +24,7 @@ Die hfg.design 2.0 Plattform basiert auf einer Microservice-Architektur mit spez
 
 ### Einführung
 
-Keycloak ist unser zentrales Identity und Access Management System für die gesamte hfg.design 2.0 Plattform. Es verwaltet alle Benutzer, authentifiziert sowohl Frontend-Nutzer als auch Backend-Services und stellt eine einheitliche Autorisierungsschicht für das gesamte System bereit.
+Keycloak ist unser zentrales Identity und Access Management System für die gesamte <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> Plattform. Es verwaltet alle Benutzer, authentifiziert sowohl Frontend-Nutzer als auch Backend-Services und stellt eine einheitliche Autorisierungsschicht für das gesamte System bereit.
 
 ### Hauptmerkmale
 
@@ -70,7 +70,7 @@ Keycloak stellt sicher, dass alle Systemkomponenten eine konsistente und sichere
 
 ### Einführung
 
-MongoDB ist die zentrale Datenbank für unsere [API](API) und speichert alle persistenten Daten des hfg.design 2.0 Systems. Als dokumentenorientierte NoSQL-Datenbank bietet sie die nötige Flexibilität für die vielfältigen Datenstrukturen unserer Lehr- und Lernplattform.
+MongoDB ist die zentrale Datenbank für unsere [API](API) und speichert alle persistenten Daten des <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> Systems. Als dokumentenorientierte NoSQL-Datenbank bietet sie die nötige Flexibilität für die vielfältigen Datenstrukturen unserer Lehr- und Lernplattform.
 
 ### Hauptmerkmale
 
@@ -168,7 +168,7 @@ Die flexible Dokumentenstruktur ermöglicht es, Datenmodelle schnell anzupassen 
 
 ### Einführung
 
-Matrix Synapse ist die Referenzimplementierung eines Matrix-Homeservers und dient in unserem System als Backend für die gesamte Chat-Funktionalität. Es bietet eine sichere, skalierbare Messaging-Infrastruktur, die nahtlos in die hfg.design 2.0 Plattform integriert ist.
+Matrix Synapse ist die Referenzimplementierung eines Matrix-Homeservers und dient in unserem System als Backend für die gesamte Chat-Funktionalität. Es bietet eine sichere, skalierbare Messaging-Infrastruktur, die nahtlos in die <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> Plattform integriert ist.
 
 ### Hauptmerkmale
 
@@ -181,7 +181,7 @@ Matrix Synapse ist die Referenzimplementierung eines Matrix-Homeservers und dien
 
 ### Rolle in unserem System
 
-Matrix Synapse fungiert als spezialisiertes Messaging-Backend für hfg.design 2.0:
+Matrix Synapse fungiert als spezialisiertes Messaging-Backend für <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span>:
 
 - **Chat-Backend**: Verwaltet alle Nachrichten und Medieninhalte aus unserer Chat-Funktion
 - **Space-Integration**: Unterstützt die Chat-Komponente in allen Space-Typen der [UI](ui)
@@ -256,7 +256,7 @@ MinIO dient in unserem System als S3-kompatibles Object Storage für alle Medien
 
 ### Rolle in unserem System
 
-MinIO fungiert als zentraler Medienspeicher für hfg.design 2.0:
+MinIO fungiert als zentraler Medienspeicher für <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span>:
 
 - **Slide-Screenshots**: Speichert automatisch erfasste Screenshots von [LiveKit](#livekit)-Übertragungen durch [AI-Agents](AI-Agents)
 - **Avatar-Speicher**: Verwaltet Space- und User-Avatare für die [UI](ui)

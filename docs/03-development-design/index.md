@@ -6,13 +6,17 @@ hide_title: false
 
 # Architecture
 
-hfg.design 2.0 ist eine intelligente Lehr- und Lernplattform, die aus mehreren spezialisierten Core-Services besteht. Die Architektur ist darauf ausgelegt, nahtlose Kollaboration, Live-Streaming und AI-gestützte Inhaltsanalyse zu ermöglichen.
+<span style={{backgroundColor: 'magenta'}}>Hier fehlen noch Links und Text teils generisch</span>
+
+<span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> ist eine intelligente Lehr- und Lernplattform, die aus mehreren spezialisierten Core-Services besteht. Die Architektur ist darauf ausgelegt, nahtlose Kollaboration, Live-Streaming und AI-gestützte Inhaltsanalyse zu ermöglichen.
+
+<span style={{backgroundColor: 'magenta'}}>Schaubild & Inhalte sind nicht aktuell </span>
 
 ![Architekturdiagramm](/images/architecture.png)
 
 ## System-Übersicht
 
-Das zentrale Element unserer Anwendung bildet die **[UI](ui)** - unsere Vue.js-Webanwendung von hfg.design 2.0. Sie stellt eine einheitliche Benutzeroberfläche für alle Systemfunktionen bereit und integriert seamless verschiedene Arbeitsräume (Spaces) mit unterschiedlichen Capabilities.
+Das zentrale Element unserer Anwendung bildet die **[UI](ui)** - unsere Vue.js-Webanwendung von <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span>. Sie stellt eine einheitliche Benutzeroberfläche für alle Systemfunktionen bereit und integriert seamless verschiedene Arbeitsräume (Spaces) mit unterschiedlichen Capabilities.
 
 Die **[API](API)** fungiert als zentraler Vermittler und verwaltet alle persistenten Daten über eine RESTful-Schnittstelle. Sie koordiniert die Kommunikation zwischen allen Services und bietet Real-time-Updates über Socket.io.
 

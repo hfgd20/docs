@@ -33,10 +33,10 @@ Suchvorschläge werden während der Eingabe automatisch angezeigt. Suchergebniss
 
 Führt zum [Dashboard](dashboard).
 
-## Curriculum
+## Curriculum 🚧
 
-Der Bereich **Curriculum** ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich **Curriculum** ist noch nicht implementiert.</span>
 
-## Knowledge Base
+## Knowledge Base 🚧
 
-Der Bereich **Knowledge Base** ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich **Knowledge Base** ist noch nicht implementiert.</span>

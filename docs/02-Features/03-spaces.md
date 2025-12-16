@@ -50,9 +50,9 @@ Die Space-Liste kann nach **Typen** gefiltert werden, um die Übersicht zu erlei
 
 Verfügbare Filterkategorien sind: *Kurse, Kanäle, Direktnachrichten, Gruppennachrichten, Projekte, Verlinkungen* und *Ordner*.
 
-### Ansicht ändern
+### Ansicht ändern 🚧
 
-Der Bereich **Ansicht ändern** ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich **Ansicht ändern** ist noch nicht implementiert.</span>
 
 ### Weitere Space-Funktionen
 
@@ -64,8 +64,9 @@ Spaces können „angepinnt“ werden, um sie dauerhaft am oberen Rand der Space
 **Spaces sortieren**
 Die Sortierung kann **automatisch** oder **alphabetisch** erfolgen. Bei der automatischen Sortierung werden Spaces nach **jüngster Aktivität** angeordnet. Spaces mit aktivem Livestream erscheinen immer ganz oben, gefolgt von angepinnten Spaces und anschließend allen übrigen – je nach gewähltem Sortiermodus.
 
-**Gruppen erstellen**
-Der Bereich **Gruppen erstellen** ist noch nicht implementiert.
+**Gruppen erstellen** 🚧  
+
+<span style={{backgroundColor: 'yellow'}}>Der Bereich **Gruppen erstellen** ist noch nicht implementiert.</span>
 
 <!-- ## Spaceview
 
@@ -73,7 +74,7 @@ Die **Space View** bildet die inhaltliche und kommunikative Ebene eines einzelne
 
 ## Chat
 
-Der Chat stellt eine der Hauptfunktionen von hfg.design 2.0 dar und bildet das kommunikative Zentrum innerhalb jedes Spaces. Er ermöglicht den schnellen, kontextbezogenen Austausch zwischen Nutzer:innen, das Teilen von Dateien sowie Reaktionen und strukturierte Diskussionsverläufe über Threads. Nachrichten werden chronologisch dargestellt, wobei die neueste Nachricht stets am unteren Ende erscheint.
+Der Chat stellt eine der Hauptfunktionen von <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> dar und bildet das kommunikative Zentrum innerhalb jedes Spaces. Er ermöglicht den schnellen, kontextbezogenen Austausch zwischen Nutzer:innen, das Teilen von Dateien sowie Reaktionen und strukturierte Diskussionsverläufe über Threads. Nachrichten werden chronologisch dargestellt, wobei die neueste Nachricht stets am unteren Ende erscheint.
 
 ### Nachricht schreiben
 
@@ -147,34 +148,121 @@ Mit einem Toggle können alle Stream-Interaktionswerkzeuge ein- oder ausgeblende
 **Einstellungen**  
 Hier können Nutzer:innen die Wiedergabequalität sowie Untertitel-Optionen konfigurieren. Diese Funktionen sind vorgesehen, aber derzeit noch nicht implementiert.
 
-**Untertitel Toggle**
-Der Bereich Untertitel ist noch nicht implementiert.
+**Untertitel Toggle** 🚧  
 
-### Vorlesungszusammenfassung
+<span style={{backgroundColor: 'yellow'}}>Der Bereich Untertitel ist noch nicht implementiert.</span>
+
+### Vorlesungszusammenfassung 🚧
 
 Nach einer Vorlesung wird automatisch eine KI-Zusammenfassung des Inhalts erstellt, die von der Lehrperson angepasst werden kann.
 
-Der Bereich „Vorlesungszusammenfassung“ ist vorgesehen, aber aktuell noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich „Vorlesungszusammenfassung" ist vorgesehen, aber aktuell noch nicht implementiert.</span>
 
-## Videos
+## Videos 🚧
 
-Der Bereich *Videos* ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Videos* ist noch nicht implementiert.</span>
 
-## Zeitplan
+## Zeitplan 🚧
 
-Der Bereich *Zeitplan* ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Zeitplan* ist noch nicht implementiert.</span>
 
-## Dateien
+## Dateien 🚧 
 
-Der Bereich *Dateien* ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Dateien* ist noch nicht implementiert.</span> 
 
-## Infos
+Der Bereich Dateien bündelt alle Inhalte, die innerhalb eines Spaces geteilt oder hochgeladen wurden. Er dient als zentrale Ablage für Arbeitsmaterialien und ermöglicht einen schnellen Überblick über Dokumente, Medien und verknüpfte externe Inhalte.
 
-Der Bereich *Infos* ist noch nicht implementiert.
+Die Ansicht ist bewusst unabhängig vom Chat gestaltet, sodass Dateien auch dann leicht auffindbar bleiben, wenn sie bereits länger zurückliegen oder nicht mehr aktiv diskutiert werden.
 
-## Abgabe
+### Inhalte & Dateitypen
 
-Der Bereich *Abgabe* ist noch nicht implementiert.
+Im Dateien-Bereich werden unterschiedliche Inhaltstypen gemeinsam dargestellt, darunter:
+
+- Dokumente (z. B. PDF, Textdateien)
+- Bilder & Grafiken
+- Audio- und Videodateien
+- Code-Dateien
+- Verlinkte Inhalte (z. B. Figma, Miro, Google Sheets)
+
+Externe Dateien werden klar als Verlinkung gekennzeichnet und öffnen sich direkt in der jeweiligen Anwendung.
+
+### Ansichten
+
+Dateien können je nach Inhalt und persönlicher Präferenz in unterschiedlichen Darstellungsformen betrachtet werden:
+
+### Listenansicht
+Zeigt Dateien tabellarisch mit zusätzlichen Metadaten wie:
+
+- Name
+- Ersteller:in
+- Datum des Uploads
+- Dateigröße
+- Status (z. B. gemerkt)
+
+![Listenansicht der Dateien](/images/02-features-images/Filesview-default.png)
+*Listenansicht mit Sortierung und Details zu jeder Datei*
+
+### Grid-Ansicht
+Besonders geeignet für Bilder, Grafiken und visuelle Inhalte. Vorschaubilder ermöglichen ein schnelles visuelles Scannen.
+
+![Grid-Ansicht mit Dateien](/images/02-features-images/Filesview-grid.png)
+*Grid-Ansicht zeigt Dokumente und Dateien als Vorschaubilder*
+
+![Grid-Ansicht mit vielen Bildern](/images/02-features-images/Filesview-more.png)
+*Grid-Ansicht mit Bildern und Videos in einer übersichtlichen Kacheldarstellung*
+
+Zwischen den Ansichten kann jederzeit gewechselt werden.
+
+### Filtern & Suchen
+
+Über die Filterleiste lassen sich Dateien nach Typ eingrenzen, z. B.:
+
+- Text & Dokumente
+- Bilder & Grafik
+- Audio / Video
+- Code-Dateien
+- Sonstige
+
+Zusätzlich steht eine Suche innerhalb der Dateien zur Verfügung, um gezielt nach Dateinamen oder Inhalten zu suchen.
+
+### Aktionen & Interaktionen
+
+Für jede Datei stehen kontextabhängige Aktionen zur Verfügung, unter anderem:
+
+- Öffnen oder Abspielen der Datei
+- Download
+- Merken (Bookmark)
+- Weiterleiten oder Teilen
+
+Öffnen der Ursprungsquelle (bei externen Verlinkungen)
+
+Die verfügbaren Aktionen sind direkt am Dateielement erreichbar.
+
+### Laden weiterer Inhalte
+
+Bei umfangreichen Spaces werden Dateien schrittweise geladen.
+Über den Button „Mehr laden“ können weitere Inhalte nachgeladen werden, ohne die Ansicht neu zu laden oder den Kontext zu verlieren.
+![Mehr laden Button](/images/02-features-images/Filesview-moremore.png)
+*"Mehr laden" Button ermöglicht schrittweises Nachladen bei großen Dateimengen*
+Dieses progressive Laden sorgt für eine performante Darstellung auch bei sehr großen Dateimengen.
+
+### Ziel & Nutzen
+
+Der Dateien-Bereich ist darauf ausgelegt:
+
+- Materialien langfristig auffindbar zu halten
+- parallele Ablagestrukturen zu vermeiden
+- und Spaces als vollständige Arbeitsräume nutzbar zu machen
+
+So entsteht eine klare Trennung zwischen Kommunikation (Chat) und Arbeitsmaterial (Dateien) – ohne den Zusammenhang zwischen beiden zu verlieren.
+
+## Infos 🚧
+
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Infos* ist noch nicht implementiert.</span>
+
+## Abgabe 🚧
+
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Abgabe* ist noch nicht implementiert.</span>
 
 ## Weitere
 
@@ -201,14 +289,14 @@ Das Profil ist wie folgt aufgebaut:
 - **Interessen** – dieser Bereich ist noch nicht implementiert
 - **Gemeinsame Spaces** – listet alle Spaces auf, die man mit dieser Person teilt
 
-### Aktivitäten
+### Aktivitäten 🚧
 
-Der Bereich *Aktivitäten* ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Aktivitäten* ist noch nicht implementiert.</span>
 
-### Gepinnt, Favoriten, Später erinnern
+### Gepinnt, Favoriten, Später erinnern 🚧
 
-Der Bereich *Gepinnt, Favoriten, Später erinnern* ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Gepinnt, Favoriten, Später erinnern* ist noch nicht implementiert.</span>
 
-### Space Informationen
+### Space Informationen 🚧
 
-Der Bereich *Space Informationen* ist noch nicht implementiert.
+<span style={{backgroundColor: 'yellow'}}>Der Bereich *Space Informationen* ist noch nicht implementiert.</span>

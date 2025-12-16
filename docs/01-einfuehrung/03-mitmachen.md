@@ -4,9 +4,9 @@ title: Mitmachen
 hide_title: false
 ---
 
-Als Open-Source-Projekt lebt **hfg.design 2.0** von der aktiven Beteiligung der Community.
+Als Open-Source-Projekt lebt <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> von der aktiven Beteiligung der Community.
 
-**hfg.design 2.0** ist ein **offenes Projekt**, das aktiv zur Mitgestaltung und Mitarbeit einlädt. Als Open-Source-Initiative lebt es von der Beteiligung der Community – sowohl aus der Hochschule heraus als auch von externen Entwickler*innen, Lehrenden und Designer*innen.
+<span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> ist ein **offenes Projekt**, das aktiv zur Mitgestaltung und Mitarbeit einlädt. Als Open-Source-Initiative lebt es von der Beteiligung der Community – sowohl aus der Hochschule heraus als auch von externen Entwickler*innen, Lehrenden und Designer*innen.
 
 Beitragen kann man in verschiedenen Formen:
 

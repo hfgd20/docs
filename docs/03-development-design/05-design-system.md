@@ -6,7 +6,7 @@ hide_title: false
 
 # Figma Design System
 
-Das Figma Design System von hfg.design 2.0 ist die zentrale Referenz für das visuelle Erscheinungsbild und die UI-Struktur der Plattform. Es richtet sich an alle, die am Projekt mitarbeiten – unabhängig davon, ob sie regelmäßig mit Figma arbeiten oder nicht.
+Das Figma Design System von <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> ist die zentrale Referenz für das visuelle Erscheinungsbild und die UI-Struktur der Plattform. Es richtet sich an alle, die am Projekt mitarbeiten – unabhängig davon, ob sie regelmäßig mit Figma arbeiten oder nicht.
 
 - Im Design System findest du:
 - den aktuellen Designstand der Plattform
@@ -26,6 +26,7 @@ Die Datei kann eingesehen werden, auch ohne Figma-Education-Abo
 
 Je nach Account-Typ stehen unterschiedliche Funktionen zur Verfügung (siehe unten)
 
+<span style={{backgroundColor: 'magenta'}}>Hier fehlen noch Links und Text generisch</span>
 👉 Download / Zugriff:
 Der direkte Link zur Figma-Datei ist im Repository bzw. in der Projekt-Dokumentation verlinkt. ???
 

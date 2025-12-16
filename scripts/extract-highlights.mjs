@@ -13,10 +13,10 @@ const BASE_URL = '/docs';
 
 // Highlight colors to search for
 const HIGHLIGHT_COLORS = {
-  yellow: { name: 'Gelb', emoji: '🟨', description: 'Design' },
-  cyan: { name: 'Cyan', emoji: '🟦', description: 'Dev' },
-  orange: { name: 'Orange', emoji: '🟧', description: 'Generell' },
-  lightgreen: { name: 'Hellgrün', emoji: '🟩', description: 'Branding' },
+  yellow: { name: 'Gelb', emoji: '<span style={{color: "yellow"}}>●</span>', description: 'Feature noch nicht implementiert', dark: '#6b5a00' },
+  magenta: { name: 'Magenta', emoji: '<span style={{color: "magenta"}}>●</span>', description: 'Dokumentation/Text fehlt noch', dark: '#6b0066' },
+  orange: { name: 'Orange', emoji: '<span style={{color: "orange"}}>●</span>', description: 'Design und Implementierung fehlt', dark: '#804000' },
+  blue: { name: 'Blau', emoji: '<span style={{color: "blue"}}>●</span>', description: 'Branding-Namen müssen ersetzt werden (hfg2.0 → Peer)', dark: '#1a4d7a' },
 };
 
 // Pattern to match <span style={{backgroundColor: 'COLOR'}}>content</span>
@@ -220,6 +220,38 @@ Diese Seite listet alle markierten Textstellen aus der gesamten Dokumentation au
     });
   });
 
+  // Calculate summary data
+  const totalHighlights = Object.values(highlightsByColor).reduce((sum, arr) => sum + arr.length, 0);
+  const totalFiles = new Set(
+    Object.values(highlightsByColor).flatMap((arr) => arr.map((h) => h.filePath))
+  ).size;
+
+  // Add summary
+  markdown += `## 📊 Zusammenfassung
+
+Insgesamt **${totalHighlights} markierte Stellen** in **${totalFiles} Dokumenten** gefunden.
+
+`;
+
+  Object.entries(HIGHLIGHT_COLORS).forEach(([color, colorInfo]) => {
+    const count = highlightsByColor[color].length;
+    if (count > 0) {
+      markdown += `- ${colorInfo.emoji} **${colorInfo.name}**: ${count} Stellen\n`;
+    }
+  });
+
+  markdown += `\n---\n\n`;
+
+  // Add legend
+  markdown += `## 🎨 Legende
+
+- <span style={{color: "blue"}}>●</span> **Blau** → Branding-Namen müssen ersetzt werden (z.B. "hfg.design 2.0" zu "Peer")
+- <span style={{color: "magenta"}}>●</span> **Magenta** → Hier fehlt noch Dokumentation oder Text
+- <span style={{color: "yellow"}}>●</span> **Gelb** → Feature ist noch nicht implementiert
+- <span style={{color: "orange"}}>●</span> **Orange** → Design und Implementierung fehlt noch komplett
+
+`;
+
   // Generate sections for each color
   Object.entries(HIGHLIGHT_COLORS).forEach(([color, colorInfo]) => {
     const colorHighlights = highlightsByColor[color];
@@ -228,7 +260,7 @@ Diese Seite listet alle markierten Textstellen aus der gesamten Dokumentation au
 
     markdown += `---
 
-## ${colorInfo.emoji} ${colorInfo.name} (${colorHighlights.length})
+## <span style={{color: "${color}"}}>${colorInfo.emoji} ${colorInfo.name} (${colorHighlights.length})</span>
 
 _${colorInfo.description}_
 
@@ -263,28 +295,8 @@ _${colorInfo.description}_
     });
   });
 
-  // Add summary at the end
-  markdown += `---
-
-## 📊 Zusammenfassung
-
-`;
-
-  const totalHighlights = Object.values(highlightsByColor).reduce((sum, arr) => sum + arr.length, 0);
-  const totalFiles = new Set(
-    Object.values(highlightsByColor).flatMap((arr) => arr.map((h) => h.filePath))
-  ).size;
-
-  markdown += `Insgesamt **${totalHighlights} markierte Stellen** in **${totalFiles} Dokumenten** gefunden.\n\n`;
-
-  Object.entries(HIGHLIGHT_COLORS).forEach(([color, colorInfo]) => {
-    const count = highlightsByColor[color].length;
-    if (count > 0) {
-      markdown += `- ${colorInfo.emoji} **${colorInfo.name}**: ${count} Stellen\n`;
-    }
-  });
-
-  markdown += `\n_Diese Datei wurde automatisch generiert am ${new Date().toLocaleDateString('de-DE', { 
+  // Add timestamp
+  markdown += `\n---\n\n_Diese Datei wurde automatisch generiert am ${new Date().toLocaleDateString('de-DE', { 
     year: 'numeric', 
     month: 'long', 
     day: 'numeric',
