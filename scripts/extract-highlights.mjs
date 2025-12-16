@@ -110,7 +110,9 @@ function findNearestHeading(lines, lineNumber) {
     const headingMatch = line.match(/^#{1,6}\s+(.+)$/);
     if (headingMatch) {
       const headingText = headingMatch[1]
-        .replace(/[^\w\s-]/g, '') // Remove special chars except word chars, spaces, hyphens
+        .replace(/<[^>]+>/g, '') // Remove HTML tags first
+        .replace(/\*\*/g, '') // Remove bold markers
+        .replace(/[^\w\säöüÄÖÜß-]/g, '') // Keep word chars, spaces, German umlauts, hyphens
         .toLowerCase()
         .trim()
         .replace(/\s+/g, '-'); // Replace spaces with hyphens
@@ -180,7 +182,13 @@ function getDocPath(filePath) {
   
   // Handle index files
   if (docPath.endsWith('/index')) {
-    return docPath.replace(/\/index$/, '');
+    docPath = docPath.replace(/\/index$/, '');
+  }
+  
+  // Special handling: if the path is just 'einfuehrung' (from einfuehrung/index.md with slug: /),
+  // it should map to the root
+  if (docPath === 'einfuehrung') {
+    return '';
   }
   
   return docPath;
