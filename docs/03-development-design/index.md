@@ -6,13 +6,19 @@ hide_title: false
 
 # Architecture
 
-<span style={{backgroundColor: 'magenta'}}>Hier fehlen noch Links und Text teils generisch</span>
+:::warning Work in Progress
+Hier fehlen noch Links und Text teils generisch. Das Schaubild & die Inhalte sind nicht aktuell.
+:::
 
 <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> ist eine intelligente Lehr- und Lernplattform, die aus mehreren spezialisierten Core-Services besteht. Die Architektur ist darauf ausgelegt, nahtlose Kollaboration, Live-Streaming und AI-gestützte Inhaltsanalyse zu ermöglichen.
 
-<span style={{backgroundColor: 'magenta'}}>Schaubild & Inhalte sind nicht aktuell </span>
-
 ![Architekturdiagramm](/images/architecture.png)
+
+## Technologie-Stack im Überblick
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
 
 ## System-Übersicht
 

@@ -6,9 +6,17 @@ hide_title: false
 
 # Hosting & Deployment
 
-<span style={{backgroundColor: 'magenta'}}>Hier fehlt vielleicht noch eine bessere step by step Dokumentation Quickguide zuviel CLI ohne Kontext?</span>
+:::warning Dokumentation in Arbeit
+Hier fehlt noch eine bessere step by step Dokumentation. Der Quickguide könnte mehr Kontext zu den CLI-Befehlen gebrauchen.
+:::
 
 Dieser Bereich beschreibt, wie <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> bzw. **Peer*** gehostet und deployed werden kann.
+
+:::info Voraussetzungen
+- Docker & Docker Compose installiert
+- Traefik als Reverse Proxy (optional)
+- Grundlegende Kenntnisse in Container-Orchestrierung
+:::
 
 ## setup hfgd2.0 quickly
 

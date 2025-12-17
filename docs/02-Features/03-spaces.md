@@ -28,7 +28,9 @@ Ein externer Verweis, z. B. auf eine Website oder ein Figma-Board. Beim Anklicke
 **Ordner**
 Ein Ordner zur strukturellen Organisation von Spaces. Er entsteht, wenn zwei Spaces per Drag-and-Drop übereinander gezogen werden, und kann anschließend aufgeklappt oder geschlossen werden.
 
+:::note Berechtigungen
 Grundsätzlich können **alle Nutzer*innen Spaces erstellen**, mit Ausnahme von Kursen. Studierende dürfen keine Kurse anlegen, können aber **Tutorien** erstellen, die funktional einem Kurs ähneln.
+:::
 
 ### Space hinzufügen
 
@@ -53,7 +55,9 @@ Verfügbare Filterkategorien sind: *Kurse, Kanäle, Direktnachrichten, Gruppenna
 
 ### Ansicht ändern 🚧
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich **Ansicht ändern** ist noch nicht implementiert.</span>
+:::caution Noch nicht implementiert
+Der Bereich **Ansicht ändern** ist noch nicht implementiert.
+:::
 
 ### Weitere Space-Funktionen
 
@@ -65,7 +69,9 @@ Spaces können „angepinnt“ werden, um sie dauerhaft am oberen Rand der Space
 **Spaces sortieren**
 Die Sortierung kann **automatisch** oder **alphabetisch** erfolgen. Bei der automatischen Sortierung werden Spaces nach **jüngster Aktivität** angeordnet. Spaces mit aktivem Livestream erscheinen immer ganz oben, gefolgt von angepinnten Spaces und anschließend allen übrigen – je nach gewähltem Sortiermodus.
 
-**Gruppen erstellen** 🚧  
+:::caution Noch nicht implementiert
+Der Bereich **Gruppen erstellen** ist noch nicht implementiert.
+:::
 
 <span style={{backgroundColor: 'yellow'}}>Der Bereich **Gruppen erstellen** ist noch nicht implementiert.</span>
 

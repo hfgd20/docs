@@ -10,7 +10,19 @@ hide_title: false
 
 Die Plattform <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> basiert auf Spaces als zentralen Arbeitsbereichen. Jeder Space stellt einen eigenständigen Kontext für Kommunikation, Zusammenarbeit und Projektorganisation dar. Innerhalb der Spaces sind Funktionen wie Chat, Streams, Dateien, Zeitplanung und Abgaben integriert und ermöglichen es den Nutzer:innen, alle relevanten Informationen an einer Stelle zu bündeln.
 
-Die Plattform ist so gestaltet, dass sie sowohl für Studierende als auch für Lehrende nutzbar ist und jede Seite ihre eigenen Funktionen hat. Die Strukturen innerhalb der Spaces sind klar definiert, sodass neue Nutzer:innen sich schnell orientieren und produktiv arbeiten können. 
+Die Plattform ist so gestaltet, dass sie sowohl für Studierende als auch für Lehrende nutzbar ist und jede Seite ihre eigenen Funktionen hat. Die Strukturen innerhalb der Spaces sind klar definiert, sodass neue Nutzer:innen sich schnell orientieren und produktiv arbeiten können.
+
+:::tip Modularer Aufbau
+Alle Features sind als Module konzipiert und können je nach Space-Typ aktiviert oder deaktiviert werden.
+:::
+
+## Hauptfunktionen im Überblick
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+
+---
 
 ## Dashboard
 

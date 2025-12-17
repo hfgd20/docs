@@ -35,8 +35,12 @@ Führt zum [Dashboard](dashboard).
 
 ## Curriculum 🚧
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich **Curriculum** ist noch nicht implementiert.</span>
+:::caution Noch nicht implementiert
+Der Bereich **Curriculum** ist noch nicht implementiert.
+:::
 
 ## Knowledge Base 🚧
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich **Knowledge Base** ist noch nicht implementiert.</span>
+:::caution Noch nicht implementiert
+Der Bereich **Knowledge Base** ist noch nicht implementiert.
+:::
