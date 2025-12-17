@@ -65,6 +65,11 @@ const config: Config = {
 	themeConfig: {
 		// Replace with your project's social card
 		// image: "images/docusaurus-social-card.jpg",
+		colorMode: {
+			defaultMode: 'dark',
+			disableSwitch: false,
+			respectPrefersColorScheme: false,
+		},
 		navbar: {
 			title: "hfgd2.0",
 			logo: {
