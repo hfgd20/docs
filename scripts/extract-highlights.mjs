@@ -16,7 +16,7 @@ const HIGHLIGHT_COLORS = {
   yellow: { name: 'Gelb', emoji: '<span style={{color: "yellow"}}>●</span>', description: 'Feature noch nicht implementiert', dark: '#6b5a00' },
   magenta: { name: 'Magenta', emoji: '<span style={{color: "magenta"}}>●</span>', description: 'Dokumentation/Text fehlt noch', dark: '#6b0066' },
   orange: { name: 'Orange', emoji: '<span style={{color: "orange"}}>●</span>', description: 'Design und Implementierung fehlt', dark: '#804000' },
-  blue: { name: 'Blau', emoji: '<span style={{color: "blue"}}>●</span>', description: 'Branding-Namen müssen ersetzt werden (hfg2.0 → Peer)', dark: '#1a4d7a' },
+  blue: { name: 'Blau', emoji: '<span style={{color: "blue"}}>●</span>', description: 'Branding-Namen müssen ersetzt werden (hfg2.0 → Peer)', dark: '#5693fc' },
 };
 
 // Pattern to match <span style={{backgroundColor: 'COLOR'}}>content</span>

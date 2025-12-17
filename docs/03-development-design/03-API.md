@@ -23,6 +23,9 @@ Die API ist unsere zentrale Schnittstelle für user-generated content und bildet
 
 Die API fungiert als zentraler Vermittler und Datenverwaltungsservice:
 
+![Platzhalter: API-Architektur und Service-Integration](/images/03-development-design-images/placeholder-api-architecture.png)
+<span style={{backgroundColor: 'magenta'}}>*Diagramm könnte hier zeigen: Die API als zentrale Schnittstelle zwischen UI, MongoDB, MinIO, LiveKit, Matrix Synapse, Keycloak und AI-Agents mit REST- und Socket.io-Verbindungen*</span>
+
 **Space-Management:**
 
 - Erstellen, Aktualisieren und Verwalten von Spaces mit verschiedenen Typen:

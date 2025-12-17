@@ -14,4 +14,7 @@ Beitragen kann man in verschiedenen Formen:
 - **Issues und Feature-Requests** zur Verbesserung der Benutzerfreundlichkeit
 - **Dokumentationen, Tutorials und OER-Materialien**, um die Plattform für andere leichter zugänglich zu machen
 
+![Platzhalter: GitHub Repository mit Pull Requests und Issues](/images/01-einfuehrung-images/placeholder-github-collaboration.png)
+<span style={{backgroundColor: 'magenta'}}>*Screenshot könnte hier zeigen: GitHub Repository mit aktivem Issue-Tracker, Pull Requests und Contributors, um die Community-Beteiligung zu visualisieren*</span>
+
 So wächst die Plattform kontinuierlich weiter und bleibt an den tatsächlichen Bedürfnissen von Lehre und Studium ausgerichtet.

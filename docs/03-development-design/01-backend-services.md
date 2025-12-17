@@ -56,6 +56,9 @@ Unser System unterscheidet zwischen verschiedenen Authentifizierungstypen:
 
 ### Integration im System
 
+![Platzhalter: Keycloak-Authentifizierungsfluss im System](/images/03-development-design-images/placeholder-keycloak-auth-flow.png)
+<span style={{backgroundColor: 'magenta'}}>*Diagramm könnte hier zeigen: Der Authentifizierungsfluss zwischen UI (PKCE), API, Backend-Services (Client-Credentials) und Keycloak mit Token-Validierung und User-Discovery*</span>
+
 1. **UI-Integration**: Seamless SSO für alle Benutzerinteraktionen
 2. **API-Schutz**: Alle [API](API)-Routen sind über Keycloak-Token geschützt
 3. **Service-Koordination**: Automatisierte Authentifizierung für [AI-Agents](AI-Agents) und interne Services

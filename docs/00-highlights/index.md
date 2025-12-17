@@ -21,7 +21,7 @@ Insgesamt **42 markierte Stellen** in **14 Dokumenten** gefunden.
 ## 🎨 Legende
 
 - <span style={{color: "blue"}}>●</span> **Blau** → Branding-Namen müssen ersetzt werden (z.B. "hfg.design 2.0" zu "Peer")
-- <span style={{color: "magenta"}}>●</span> **Magenta** → Hier fehlt noch Dokumentation oder Text
+- <span style={{color: "magenta"}}>●</span> **Magenta** → Hier fehlt noch Dokumentation mit Bild und Text
 - <span style={{color: "yellow"}}>●</span> **Gelb** → Feature ist noch nicht implementiert
 - <span style={{color: "orange"}}>●</span> **Orange** → Design und Implementierung fehlt noch komplett
 
@@ -87,7 +87,7 @@ _Feature noch nicht implementiert_
 
 ## <span style={{color: "magenta"}}><span style={{color: "magenta"}}>●</span> Magenta (4)</span>
 
-_Dokumentation/Text fehlt noch_
+_Dokumentation mit Bild und Text fehlt noch_
 
 ### Design System
 

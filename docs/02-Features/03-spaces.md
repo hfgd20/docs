@@ -33,7 +33,8 @@ Grundsätzlich können **alle Nutzer*innen Spaces erstellen**, mit Ausnahme von 
 ### Space hinzufügen
 
 Über den Button **„Neuen Space erstellen“** öffnet sich ein mehrstufiger Dialog, der den Erstellungsprozess strukturiert:
-
+![Platzhalter: Dialog zum Erstellen eines neuen Spaces](/images/02-features-images/placeholder-create-space-dialog.png)
+<span style={{backgroundColor: 'magenta'}}>*Screenshot könnte hier zeigen: Der mehrstufige Space-Erstellungsdialog mit Auswahl zwischen Custom Space, Vorlage (DM, Gruppenchat, Projektgruppe, Channel, Tutorium) und Option zum Beitreten*</span>
 1. **Space-Typ wählen**
 
    Man kann entweder einen **individuellen („Custom“) Space** erstellen oder aus einer **Vorlage** wählen: *Direktnachricht, Gruppenchat, Projektgruppe, Channel oder Tutorium bzw. Kurs*. Alternativ kann man über einen Space-Link oder den Namen einem **bestehenden Space beitreten**.
@@ -84,6 +85,9 @@ Der Chat stellt eine der Hauptfunktionen von <span style={{backgroundColor: 'blu
 
 Nachrichten können über verschiedene Interaktionsoptionen bearbeitet oder hervorgehoben werden. 
 
+![Platzhalter: Chat mit Nachrichteninteraktionen](/images/02-features-images/placeholder-chat-interactions.png)
+<span style={{backgroundColor: 'magenta'}}>*Screenshot könnte hier zeigen: Eine Chatnachricht mit sichtbaren Interaktionsoptionen (Reaktionen, Thread-Antwort, Kopieren, Vorlesen) und bereits hinzugefügten Emoji-Reaktionen*</span>
+
 **Reaktionen**  
 Nutzer:innen können auf Nachrichten mit Emojis reagieren.
 
@@ -114,6 +118,9 @@ Wird eine Präsentation geteilt, erkennt das System die Folien automatisch und s
 ### Viewer Side
 
 Die Zuschauer:innen sehen den Stream direkt in der Plattform. Unterhalb der Übertragung stehen verschiedene Steuer- und Interaktionsoptionen zur Verfügung:
+
+![Platzhalter: Stream-Ansicht mit Interaktions-Tools](/images/02-features-images/placeholder-stream-viewer.png)
+<span style={{backgroundColor: 'magenta'}}>*Screenshot könnte hier zeigen: Die Stream-Ansicht mit eingeblendeten Tools (Foliensprung, Auswahl, Kommentieren, Markieren), Timeline mit Folien-Kapiteln und Fullscreen-Option*</span>
 
 **Foliensprung**  
 Vorherige Folie, Pause und nächste Folie.

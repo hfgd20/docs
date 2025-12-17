@@ -80,6 +80,9 @@ Speech-to-Text für Audio-Untertitel:
 
 ### Workflow-Koordination
 
+![Platzhalter: AI-Agent-Workflow und Datenfluss](/images/03-development-design-images/placeholder-ai-agent-workflow.png)
+<span style={{backgroundColor: 'magenta'}}>*Diagramm könnte hier zeigen: Der komplette Workflow von Agent-Coordinator über Slidechange, OCR, YOLO bis hin zur Speicherung in MongoDB und MinIO sowie Real-time Updates an die UI*</span>
+
 1. **Agent-Coordinator** tritt [LiveKit](backend-services#livekit)-Raum bei und koordiniert andere Agents
 2. **Agent-Slidechange** erkennt Folienwechsel und erstellt neuen Slide via `/slide/create`
 3. Screenshot wird via `/slide/store` mit Datei-Upload in [MinIO](backend-services#minio) gespeichert

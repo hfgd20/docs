@@ -6,6 +6,9 @@ hide_title: false
 
 # setup hfgd2.0 quickly
 
+![Platzhalter: Docker-Compose-Stack-Übersicht](/images/04-hosting-deployment-images/placeholder-docker-stack.png)
+<span style={{backgroundColor: 'magenta'}}>*Diagramm könnte hier zeigen: Die Docker-Container-Architektur mit UI, API, MongoDB, Synapse, MinIO, Keycloak und LiveKit sowie deren Netzwerkverbindungen*</span>
+
 1. create a new stack with the compose
 2. add the `.env` sample and change the required fields
 3. copy the `homeserver.yaml` to the synapse data folder and change the variables there

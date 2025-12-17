@@ -14,6 +14,9 @@ Zeigt die eigene Profilseite in der Ansicht, wie sie für andere Nutzer*innen si
 
 Hier können Nutzer*innen ihr Profil anpassen und persönliche Informationen pflegen.
 
+![Platzhalter: Profil-Einstellungen mit editierbaren Feldern](/images/02-features-images/placeholder-profile-settings.png)
+<span style={{backgroundColor: 'magenta'}}>*Screenshot könnte hier zeigen: Die Profil-Einstellungsseite mit editierbaren Feldern für Profilbild, Anzeigename, Pronomen, Fähigkeiten, Kontaktoptionen und Über-mich-Bereich*</span>
+
 Zu den wichtigsten Optionen gehören:
 
 - **Profilbild:** frei wählbar

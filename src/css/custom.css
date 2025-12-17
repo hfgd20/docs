@@ -93,7 +93,7 @@
 
 /* Highlight colors - Light mode */
 [data-theme="light"] span[style*="yellow"] {
-	background-color: #ffeb3b !important;
+	background-color: #efd701 !important;
 	color: #000 !important;
 	padding: 2px 4px;
 	border-radius: 2px;
@@ -107,14 +107,14 @@
 }
 
 [data-theme="light"] span[style*="orange"] {
-	background-color: #ff9800 !important;
+	background-color: #ff7300 !important;
 	color: #000 !important;
 	padding: 2px 4px;
 	border-radius: 2px;
 }
 
 [data-theme="light"] span[style*="blue"] {
-	background-color: #327eff !important;
+	background-color: #5693fc !important;
 	color: #fff !important;
 	padding: 2px 4px;
 	border-radius: 2px;
@@ -122,28 +122,28 @@
 
 /* Highlight colors - Dark mode */
 [data-theme="dark"] span[style*="yellow"] {
-	background-color: #6b5a00 !important;
+	background-color: #efd701 !important;
 	color: #000 !important;
 	padding: 2px 4px;
 	border-radius: 2px;
 }
 
 [data-theme="dark"] span[style*="magenta"] {
-	background-color: #6b0066 !important;
+	background-color: #e91e63 !important;
 	color: #000 !important;
 	padding: 2px 4px;
 	border-radius: 2px;
 }
 
 [data-theme="dark"] span[style*="orange"] {
-	background-color: #804000 !important;
+	background-color: #ff7300 !important;
 	color: #000 !important;
 	padding: 2px 4px;
 	border-radius: 2px;
 }
 
 [data-theme="dark"] span[style*="blue"] {
-	background-color: #1a4d7a !important;
+	background-color: #5693fc !important;
 	color: #000 !important;
 	padding: 2px 4px;
 	border-radius: 2px;
