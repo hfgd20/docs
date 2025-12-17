@@ -53,6 +53,10 @@ const config: Config = {
 					// Remove this to remove the "edit this page" links.
 					editUrl: "https://github.com/hfgd20/docs/blob/main",
 					exclude: ["**/tab-**/**"],
+					// Enable versioning
+					showLastUpdateTime: true,
+					showLastUpdateAuthor: true,
+					breadcrumbs: true,
 				},
 				blog: false,
 				theme: {
