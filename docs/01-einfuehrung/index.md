@@ -22,9 +22,7 @@ Das Projekt startete unter dem Arbeitstitel <span style={{backgroundColor: 'blue
 
 Diese mehrschichtige Bedeutung spiegelt die Philosophie der Plattform wider: ein Werkzeug, das nicht nur Wissen vermittelt, sondern Menschen verbindet und gemeinsames Lernen ermöglicht.
 
-:::info Open Source & OER
 Die Plattform verfolgt einen **Open-Source-Ansatz**, wodurch sie frei zugänglich, transparent und anpassbar für andere Hochschulen oder Bildungseinrichtungen bleibt. Studierende, Lehrende sowie Exerne können aktiv zur Weiterentwicklung, Pflege und Dokumentation der Plattform beitragen.
-:::
 
 ![Screen von der Plattform hfg.design 2.0 mit Dashboard und eingeklappter Sidebar](/images/01-einfuehrung-images/Welcome_SidebarClosed.png)
 

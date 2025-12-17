@@ -13,4 +13,6 @@ Durch die Verbindung digitaler, hybrider und analoger Lehrformate erhalten Studi
 
 Ein weiterer Fokus liegt auf der **Reduzierung des organisatorischen Aufwands**: Durch integrierte Kommunikation, strukturierte Projektplanung und automatisierte Abläufe wird der Zeitaufwand für Lehrende minimiert, während Studierende gleichzeitig mehr Transparenz und Planungssicherheit erhalten.
 
+:::info Open Source & OER
 Darüber hinaus ist <span style={{backgroundColor: 'blue'}}>**hfg.design 2.0**</span> als **Open-Source- und OER-Plattform** konzipiert. Damit können andere Hochschulen oder Bildungseinrichtungen die Software frei anpassen und in ihre eigenen Strukturen integrieren. So trägt das Projekt zur nachhaltigen Digitalisierung der Hochschullehre über die eigene Institution hinaus bei.
+:::
