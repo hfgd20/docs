@@ -53,11 +53,13 @@ Die Space-Liste kann nach **Typen** gefiltert werden, um die Übersicht zu erlei
 
 Verfügbare Filterkategorien sind: *Kurse, Kanäle, Direktnachrichten, Gruppennachrichten, Projekte, Verlinkungen* und *Ordner*.
 
-### Ansicht ändern 🚧
+### Ansicht ändern
 
-:::caution Noch nicht implementiert
-Der Bereich **Ansicht ändern** ist noch nicht implementiert.
-:::
+Die drei Ansichtsmodi sind:
+
+1. **List View** (Standard-Liste) – zeigt Avatar, Name und letzte Nachricht in zwei Spalten an (z.B. "User-Name: Test-Message" oder "testroom" mit Gruppennachricht)
+2. **Compact View** (Kompakte Ansicht) – zeigt kompakte Avatare mit Name für höhere Inhaltsdichte; die Nachricht wird nur bei maximal ausgezogener Sidebar angezeigt
+3. **Grid View** (Rasteransicht) – präsentiert Inhalte mit größeren Avataren als visuelle Kacheln für schnelle Orientierung (dieser Ansichtsmodus wurde noch nicht gestaltet)
 
 ### Weitere Space-Funktionen
 
@@ -69,11 +71,6 @@ Spaces können „angepinnt“ werden, um sie dauerhaft am oberen Rand der Space
 **Spaces sortieren**
 Die Sortierung kann **automatisch** oder **alphabetisch** erfolgen. Bei der automatischen Sortierung werden Spaces nach **jüngster Aktivität** angeordnet. Spaces mit aktivem Livestream erscheinen immer ganz oben, gefolgt von angepinnten Spaces und anschließend allen übrigen – je nach gewähltem Sortiermodus.
 
-:::caution Noch nicht implementiert
-Der Bereich **Gruppen erstellen** ist noch nicht implementiert.
-:::
-
-<span style={{backgroundColor: 'yellow'}}>Der Bereich **Gruppen erstellen** ist noch nicht implementiert.</span>
 
 <!-- ## Spaceview
 
@@ -138,10 +135,10 @@ Zeigt die aktuell übertragene Folie an.
 Blendet die verfügbaren Tools (Auswahl, Kommentieren, Markieren) ein oder aus.
 
 **Einstellungen**  
-Optionen für Untertitel und Videoqualität (noch nicht implementiert).
+Optionen für Untertitel und Videoqualität (als Entwurf gestaltet, noch nicht implementiert). 
 
 **Untertitel-Toggle**  
-Aktiviert oder deaktiviert Untertitel (noch nicht implementiert).
+Aktiviert oder deaktiviert Untertitel (als Entwurf gestaltet, noch nicht implementiert).
 
 **Fullscreen-Modus**  
 Öffnet die Übertragung bildschirmfüllend, mit den Tools an der rechten Seite.
@@ -159,33 +156,40 @@ Das Markierungs-Tool erkennt Textinhalte innerhalb des Streams, die von Nutzer:i
 Mit einem Toggle können alle Stream-Interaktionswerkzeuge ein- oder ausgeblendet werden.
 
 **Einstellungen**  
-Hier können Nutzer:innen die Wiedergabequalität sowie Untertitel-Optionen konfigurieren. Diese Funktionen sind vorgesehen, aber derzeit noch nicht implementiert.
+Hier können Nutzer:innen die Wiedergabequalität sowie Untertitel-Optionen konfigurieren. Diese Funktionen sind als Entwurf gestaltet, aber derzeit noch nicht implementiert.
 
 **Untertitel Toggle** 🚧  
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich Untertitel ist noch nicht implementiert.</span>
+<span style={{backgroundColor: 'yellow'}}>Der Bereich Untertitel ist als Entwurf gestaltet, aber noch nicht implementiert.</span>
 
 ### Vorlesungszusammenfassung 🚧
 
-Nach einer Vorlesung wird automatisch eine KI-Zusammenfassung des Inhalts erstellt, die von der Lehrperson angepasst werden kann.
+Nach einer Vorlesung wird automatisch eine KI-Zusammenfassung des Inhalts erstellt, die von der Lehrperson angepasst werden kann. 
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich „Vorlesungszusammenfassung" ist vorgesehen, aber aktuell noch nicht implementiert.</span>
+<span style={{backgroundColor: 'yellow'}}>Der Bereich „Vorlesungszusammenfassung" ist konzeptionell angedacht, wurde jedoch weder gestaltet noch implementiert.</span>
 
-## Videos 🚧
+## Vorlesungen/Verantaltungen
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich *Videos* ist noch nicht implementiert.</span>
+Unter "Vorlesungen/Veranstaltungen" werden aktive Live-Vorlesungen prominent oben links angezeigt, während rechts daneben die nächsten drei anstehenden Termine in chronologischer Reihenfolge erscheinen. Beide Bereiche sind durch einen optischen Trenner voneinander abgegrenzt. Läuft keine Live-Veranstaltung, rückt die nächstfolgende Vorlesung in den Live-Bereich. Darunter stehen alle bereits aufgezeichneten Vorlesungen und Veranstaltungen zur Verfügung.
 
 ## Zeitplan 🚧
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich *Zeitplan* ist noch nicht implementiert.</span>
+Die Vision umfasst zwei Kernfunktionen: Zum einen einen Zeitplan mit Übersicht über alle Vorlesungen, Abgabetermine, Prüfungen und Veranstaltungen. Zum anderen ein Terminbuchungssystem, über das Projektgruppen oder Studierende verfügbare Slots bei Lehrenden buchen können.
 
-## Dateien 🚧 
+Lehrende verwalten und sehen ihre Termine mit Studierenden in derselben Ansicht, die sich lediglich durch unterschiedliche Berechtigungen und Funktionen von der Studierenden-Ansicht unterscheidet.
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich *Dateien* ist noch nicht implementiert.</span> 
+<span style={{backgroundColor: 'yellow'}}>Der Bereich Zeitplan ist konzeptionell angedacht, wurde jedoch weder gestaltet noch implementiert. </span>
 
-Der Bereich Dateien bündelt alle Inhalte, die innerhalb eines Spaces geteilt oder hochgeladen wurden. Er dient als zentrale Ablage für Arbeitsmaterialien und ermöglicht einen schnellen Überblick über Dokumente, Medien und verknüpfte externe Inhalte.
+## Dateien
 
-Die Ansicht ist bewusst unabhängig vom Chat gestaltet, sodass Dateien auch dann leicht auffindbar bleiben, wenn sie bereits länger zurückliegen oder nicht mehr aktiv diskutiert werden.
+Der Bereich „Dateien“ bietet eine zentrale Übersicht aller relevanten Dateien. Hier werden automatisch alle Dokumente gesammelt, die im Kurs-Chat geteilt wurden. Zusätzlich können Nutzer*innen eigene Dateien direkt in diesem Bereich hochladen. Die Dateien lassen sich durchsuchen, nach verschiedenen Kriterien filtern und übersichtlich anzeigen, sodass sie schnell gefunden werden können.
+
+## Abgabe
+
+Hier sollen Studierende ihre Arbeiten bei Lehrenden einreichen können. Lehrende verfügen über eine “eigene Ansicht” mit erweiterten Berechtigungen, über die sie Abgabefristen, Bedingungen, Online-Abgabeorte und zeitliche Abgabefenster definieren können.
+
+
+<span style={{backgroundColor: 'yellow'}}>Der Bereich Abgabe ist konzeptionell angedacht, wurde jedoch weder gestaltet noch implementiert.</span>
 
 ### Inhalte & Dateitypen
 
@@ -299,17 +303,21 @@ Das Profil ist wie folgt aufgebaut:
 - **Über [Name]** – Freitextbeschreibung der Person
 - **Informationen** (z. B. Sprachen, Wohnort, Portfolio-Link, Praxissemester, Engagement, Funfact)
 - **Fähigkeiten** – zeigt, wobei die Person andere unterstützen kann
-- **Interessen** – dieser Bereich ist noch nicht implementiert
+- **Interessen** – soll zeigen, gemeinsame Interessen, um sich untereinander besser vernetzen zu können – noch nicht implementiert. Ansätze vorhanden, aber noch nicht ausformuliert (Entwurf).
 - **Gemeinsame Spaces** – listet alle Spaces auf, die man mit dieser Person teilt
 
 ### Aktivitäten 🚧
+
+Im “Thread-Overview-Panel” erhält man eine Übersicht über alle Threads, Erwähnungen und Reaktionen innerhalb eines Chats. Der Zugriff erfolgt über das “Message-Icon” im Header (oben rechts).
 
 <span style={{backgroundColor: 'yellow'}}>Der Bereich *Aktivitäten* ist noch nicht implementiert.</span>
 
 ### Gepinnt, Favoriten, Später erinnern 🚧
 
+Im „Importance-Overview-Panel“ siehst du auf einen Blick alle Nachrichten, die du als wichtig markiert hast. Dazu gehören beispielsweise gepinnte, favorisierte oder für eine spätere Erinnerung gekennzeichnete Inhalte. Der Zugriff erfolgt über das “Star-Icon” im Header (oben rechts).
+
 <span style={{backgroundColor: 'yellow'}}>Der Bereich *Gepinnt, Favoriten, Später erinnern* ist noch nicht implementiert.</span>
 
-### Space Informationen 🚧
+### Space Informationen
 
-<span style={{backgroundColor: 'yellow'}}>Der Bereich *Space Informationen* ist noch nicht implementiert.</span>
+Im “Space-Information-Panel” erhält man eine übersichtliche Darstellung aller Informationen zum jeweiligen Space. Der Zugriff erfolgt über das “Info-Icon” im Header (oben rechts).

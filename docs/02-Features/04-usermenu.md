@@ -29,7 +29,7 @@ Zu den wichtigsten Optionen gehören:
 - **Kontaktoptionen:** bevorzugte Kommunikationswege (hfg.design, E-Mail, Telefon, Slack)
 - **Status & Zeitzone:** Angabe von Erreichbarkeit und Zeitzone für Benachrichtigungen
 - **Über mich:** strukturierte Angaben zu Sprachen, Praxissemester, Portfolio-URL, Bildungsweg, Wohnort, Auslandssemester, Engagement, Funfact und optional ein Freitext
-- **Interessen:** (noch nicht implementiert)
+- **Interessen:** Die Interessenangabe für Nutzer wurde im Design berücksichtigt, aber noch nicht implementiert. Die dahinterliegende Idee ist, dass Nutzer ihre Interessen angeben können, um relevante Systemvorschläge zu erhalten und sich untereinander über gemeinsame Interessen leichter zu finden und auszutauschen.
 
 ### Menü einklappen
 
